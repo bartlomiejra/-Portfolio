@@ -3,6 +3,41 @@
 
 }
 
+.globe{
+	position: absolute;
+	top: 80px;	right: 100px;
+}
+.globe {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	height: 140px;
+	overflow: hidden;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	width: 140px;
+	
+	
+  }
+
+  svg {
+	animation: rotation 20s linear 0s infinite;
+	
+	
+  }
+  path {
+	stroke: #ffffff;
+  }
+  
+  @keyframes rotation {
+	from {
+	  transform: translateX(0);
+	}
+	
+	from {
+	  transform: translateX(-50%);
+	}
+  }
+
 .particle-canvas {
     position:fixed !important;
     left:0;
@@ -58,7 +93,7 @@ top: 100px;
 	/* margin-top: -100px; */
 
 }
-.Typist > p{
+ p{
 	
 
 	margin-top: 8px;

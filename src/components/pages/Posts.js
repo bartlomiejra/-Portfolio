@@ -1,13 +1,13 @@
 import React from 'react'
 import '../../App.css'
-import Footer from '../Footer'
+import WhoIam from '../WhoIam'
 
 export default function Posts(){
 	return (
 
 		<>
 		<h1 className="posts">Posts</h1>
-		 <Footer/>
+		 <WhoIam/>
 		 </>
 		 )
 	

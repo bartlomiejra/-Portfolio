@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../App.css'
-import Footer from '../Footer'
+import WhoIam from '../WhoIam'
 
 export default function Quotes(){
 
@@ -10,7 +10,7 @@ export default function Quotes(){
 
 		<>
 	<h1 className="quotes">Quotes</h1>
-		 <Footer/>
+		 <WhoIam/>
 		 </>
 		 )
 }
