@@ -66,18 +66,22 @@ function Hero() {
 			{/* <video src="/videos/video.mov"  type="video/quicktime"  autoPlay loop muted /> */}
 			
 			<motion.img
-			 transition={{delay: 2}}
+			 transition={{delay: 3}}
 			// animate={{scale: 1.05}}
 
 			initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
+		
+
+
+		
 			src='images/avatar.jpg' alt="profil"></motion.img>
 
 
 
 	<Typist cursor={{ show: false, hideWhenDone: true, hideWhenDoneDelay: 0 }}
-     avgTypingDelay={1}
+     avgTypingDelay={30}
 	 
 	 >
 
@@ -87,7 +91,7 @@ function Hero() {
 			   >Hello friend</motion.h1>
 
 
-<Typist.Backspace count={13} delay={1000} />
+<Typist.Backspace count={13} delay={500} />
 {/* <cursor show={false} /> */}
 
 </Typist>
@@ -107,27 +111,32 @@ animate={{ opacity: 1 }}
 className="name"> 
 		I'm Bart	
 		<motion.p 
-		transition={{delay: 8}}
+		// transition={{}}
 
 animate={{ rotate: 360 }}
-transition={{ duration: 10 }}
+transition={{ delay: 4, duration: 10 }}
 initial={{ }}
-animate={{  x:500, y: -500, scale:0.23 }}
+animate={{  x:500, y: -500, scale:0.01 }}
 exit={{ opacity: 0 }}
 
 
 class="rocket">
-	🚀</motion.p> 
+	🚀</motion.p
+	> 
 	
 	
 	
 
 </p>
-		 <p>
+		 <motion.p
+		 transition={{delay: 5}}
+		 initial={{ opacity: 0 }}
+		 animate={{ opacity: 1 }}
+		 >
 
 		 Front-end developer  from Poland 
 
-		 </p>
+		 </motion.p>
 		 
 </motion.p>
 		
