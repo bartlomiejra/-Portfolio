@@ -7,7 +7,7 @@ import  { Component } from 'react';
 import Typist from 'react-typist';
 import Particles from 'react-particles-js';
 import 'react-typist/dist/Typist.css';
-import {motion } from "framer-motion"
+import {motion, AnimatePresence } from "framer-motion"
 // import {Frame,   Scroll } from "framer"
 
 
@@ -66,12 +66,11 @@ function Hero() {
 			{/* <video src="/videos/video.mov"  type="video/quicktime"  autoPlay loop muted /> */}
 			
 			<motion.img
-			 transition={{delay: 3}}
 			// animate={{scale: 1.05}}
-
+			
 			initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{delay: 1, duration: 1}}
 		
 
 
@@ -99,9 +98,10 @@ function Hero() {
 
 	
 <motion.p
-transition={{delay: 3}}
 initial={{ opacity: 0 }}
+transition={{delay: 1, duration: 1}}
 animate={{ opacity: 1 }}
+
         exit={{ opacity: 0 }}>
 
 <p
@@ -109,21 +109,48 @@ animate={{ opacity: 1 }}
 
 
 className="name"> 
+
 		I'm Bart	
+		<AnimatePresence>
+
 		<motion.p 
-		// transition={{}}
+		
 
-animate={{ rotate: 360 }}
-transition={{ delay: 4, duration: 10 }}
-initial={{ }}
-animate={{  x:500, y: -500, scale:0.01 }}
-exit={{ opacity: 0 }}
+			
+onDrag={(
+	event,info )=>{
+		console.log(info.point.x)
+		if(info.point.x > 640){
+			// animate={{  x:200, y: -200 }}
+			
 
 
-class="rocket">
-	🚀</motion.p
-	> 
+		}
+
+	}
+}
+				drag
+		dragConstraints={{
+			top: 50,
+			left: -50,
+			right: 50,
+			bottom: 50,
+		}
+		
+	}
 	
+		// transition={{}}
+		
+		// animate={{ rotate: 360 }}
+		// transition={{ delay: 4, duration: 10 }}
+		// initial={{ }}
+		// exit={{ opacity: 0 }}
+		
+		
+		class="rocket">
+	🚀</motion.p> 
+	
+	</AnimatePresence>
 	
 	
 
@@ -132,6 +159,7 @@ class="rocket">
 		 transition={{delay: 5}}
 		 initial={{ opacity: 0 }}
 		 animate={{ opacity: 1 }}
+		 exit={{opacity: 0}}
 		 >
 
 		 Front-end developer  from Poland 
