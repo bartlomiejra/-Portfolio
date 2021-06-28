@@ -6,6 +6,7 @@ function Cards() {
 	return (
 		<div className="cards">
 			<h1>Check out some of my projects and blog posts!</h1>
+			
 			<div className="cards__container">
 				<div className="cards__wrapper">
 				<ul className="cards__items">
@@ -50,8 +51,10 @@ function Cards() {
 						path="/services"
 						/>
 					</ul>
+				<h3>	I think the value of a human being is how he helps mankind. I want to create websites and an application that will be both beautiful and functional. In my Projects, I focus on pragmatism and availability.</h3>
 				</div>
 				</div>	
+			
 		</div>
 	)
 }

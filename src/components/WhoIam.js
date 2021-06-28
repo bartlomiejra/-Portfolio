@@ -11,6 +11,7 @@ function WhoIam() {
 				<p className="footer-subscription-heading">
 					About Me
 				</p>
+	
 				{/* <p className="footer-subscription-text">
 					You can unsubscribe at any time
 				</p>
@@ -68,16 +69,16 @@ function WhoIam() {
          
           <div className='social-icons'>
             <Link
-              className='social-icon-link facebook'
-              to='/'
+              className='social-icon-link github'
+              to='https://github.com/bartlomiejra'
               target='_blank'
-              aria-label='Facebook'
+              aria-label='Github'
             >
-              <i className='fab fa-facebook-f' />
+              <i className='fab fa-github' />
             </Link>
             <Link
               className='social-icon-link instagram'
-              to='/'
+              to='https://www.instagram.com/mitchofminify/'
               target='_blank'
               aria-label='Instagram'
             >
@@ -86,19 +87,19 @@ function WhoIam() {
            
             <Link
               className='social-icon-link twitter'
-              to='/'
+              to='https://twitter.com/rachanski_b'
               target='_blank'
               aria-label='Twitter'
             >
               <i className='fab fa-twitter' />
             </Link>
             <Link
-              className='social-icon-link twitter'
-              to='/'
+              className='social-icon-link goodreads'
+              to='https://www.goodreads.com/user/show/111194458-mitchofminify'
               target='_blank'
-              aria-label='LinkedIn'
+              aria-label='Goodreads'
             >
-              <i className='fab fa-linkedin' />
+              <i className='fab fa-goodreads' />
             </Link>
           </div>
         </div>
