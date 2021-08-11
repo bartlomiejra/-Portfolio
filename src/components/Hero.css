@@ -9,14 +9,14 @@
 .globe {
 	border: 2px solid #ffffff;
 	border-radius: 50%;
-	position: absolute;
+	/* position: absolute; */
 
 	height: 75px;
 	width: 75px;
 	overflow: hidden;
-	/* position: absolute; */
 	transform: translate(-50%, -50%);
 	top: 60px;	right: 0px;
+	position: fixed;
 
 	
 	
@@ -140,6 +140,15 @@ font-size: 30px;
 		font-size: 50px;
 		margin-top: -150px;
 	}
+	.globe {
+	
+		position: absolute;
+	
+		
+		
+		
+	  }
+
 
 	.icon{
 	
