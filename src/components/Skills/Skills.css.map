@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,mBAAmB,CACnB;EAEC,MAAM,EAAE,KAAK;EACX,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,aAAa;EACtB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,GAAG;EAEpB,WAAW,EAAE,MAAM;CACjB",
+    "sources": [
+        "Skills.scss"
+    ],
+    "names": [],
+    "file": "Skills.css"
+}
