@@ -1,12 +1,12 @@
 import React from "react";
-import "../App.css";
+import "../../App.css";
 // import  { Component } from 'react';
 import "./Skills.css";
 
 function Skills() {
   return (
     <div className="skills" id="skills">
-      <div className="aboutme__container">
+      <div className="skills__container">
         <p>I am proficient in</p>
         <p>HTML, CSS, SASS, Javascript, Figma, Git, React, Wordpress </p>
         <p>Familaiar with </p>

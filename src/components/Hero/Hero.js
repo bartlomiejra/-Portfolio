@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../App.css";
-import { Button } from "../Button";
+import { Button } from "../Button/Button";
 import "./Hero.css";
 // import  { Component } from 'react';
 import Typist from "react-typist";
@@ -163,6 +163,16 @@ function Hero() {
             buttonSize="btn--large"
           >
             My Projects
+          </Button>
+        </Link>
+        <Link activeClass="active" to="project" spy={true} smooth={true}>
+          <Button
+            className="btns"
+            b
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+          >
+            Contact Me!
           </Button>
         </Link>
       </motion.div>
