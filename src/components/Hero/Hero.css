@@ -83,7 +83,6 @@ path {
 }
 
 .hero-container > img {
-  position: absolute;
   top: 100px;
   display: inline-block;
   width: 220px;
@@ -125,7 +124,6 @@ p {
 }
 
 .hero-btns {
-  position: absolute;
   bottom: 100px;
   margin-top: 20px;
   z-index: 2;
@@ -152,6 +150,15 @@ p {
   .globe {
     position: absolute;
   }
+  .hero-btns {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .icon {
     margin-top: 8px;
   }
@@ -161,6 +168,10 @@ p {
   .Typist > h1 {
     font-size: 50px;
     margin-top: -100px;
+  }
+  .hero-btns {
+    width: 80%;
+    display: block;
   }
   .Typist > p {
     font-size: 30px;

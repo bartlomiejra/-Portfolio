@@ -1,82 +1,81 @@
 :root {
-	--primary: #fff;
-	
-
+  --primary: #fff;
 }
-@keyframes MoveUpDown {
-	0%, 100% {
-	  bottom: 0;
-	}
-	50% {
-	  bottom: 4px;
-	}
-	
+
+@-webkit-keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
   }
+  50% {
+    bottom: 4px;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 4px;
+  }
+}
 
 .btn {
-	padding: 8px 20px;
-	border-radius: 2px;
-	outline: none;
-	border: none;
-	cursor: pointer;
-
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
-.btn-primary{
-
-	background-color: var(--primary);
-	color: #242424;
-	border: 1px solid var(--primary);
+.btn-primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
 }
 
-.btn--outline{
-
-	background-color: transparent;
-	color: white;
-	border: 0 solid;
-	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-	outline: 1px solid;
-	outline-color: rgba(255, 255, 255, .5);
-	outline-offset: 0px;
-	text-shadow: none;
-	/* transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); */
-	padding: 8px 20px;
-	/* border: 1px solid var(--primary); */
-transition: all 0.3s ease-out;
-
+.btn--outline {
+  background-color: transparent;
+  color: white;
+  border: 0 solid;
+  -webkit-box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+          box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  /* transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); */
+  padding: 8px 20px;
+  /* border: 1px solid var(--primary); */
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
-.btn-medium{
-	padding: 8px 20px;
-	font-size: 20px;
+.btn-medium {
+  padding: 8px 20px;
+  font-size: 20px;
 }
 
-.btn--large{
-	padding: 12px 26px;
-	font-size: 20px;
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
 }
 
-.btn--medium:hover, .btn-large:hover{
-	background-color: #fff;
-	color: #242424;
-	/* transition: all 0.3s ease-out; */
-	
-
-
+.btn--medium:hover, .btn-large:hover {
+  background-color: #fff;
+  color: #242424;
+  /* transition: all 0.3s ease-out; */
 }
 
-
-  
-  .btn--outline:hover {
-	  
-	  border: 1px solid;
-	  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-	  outline-color: rgba(255, 255, 255, 0);
-	  outline-offset: 15px;
-	  text-shadow: 1px 1px 2px #427388; 
-	  animation: MoveUpDown 0.8s linear infinite;
-	position: relative; 
-  }
-
-
-  
+.btn--outline:hover {
+  border: 1px solid;
+  -webkit-box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+          box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+  -webkit-animation: MoveUpDown 0.8s linear infinite;
+          animation: MoveUpDown 0.8s linear infinite;
+  position: relative;
+}
+/*# sourceMappingURL=Button.css.map */

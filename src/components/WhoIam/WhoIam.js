@@ -1,26 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import { Button } from './Button'
+// import { Button } from "../Button/Button";
 import "./WhoIam.css";
 
 function WhoIam() {
   return (
     <div className="whoiam-container" id="whoiam">
-      <section className="whoiam-subscription">
-        <p className="whoiam-subscription-heading">About Me</p>
-
-        {/* <p className="whoiam-subscription-text">
-					You can unsubscribe at any time
-				</p>
-				<div className="input-areas">
-					<form >
-<input type="emial" name="emial" placeholder="Your Email" className="whoiam-input" />
-<Button buttonStyle="btn--outline"> Subscribe	
-
-</Button>
-
-					</form>
-				</div> */}
+      <section className="whoiam-text">
+        <p className="whoiam-text-heading">About Me</p>
+        <p>
+          I think the value of a human being is how he helps mankind. I want to
+          create websites and an application that will be both beautiful and
+          functional. In my Projects, I focus on pragmatism and availability.
+        </p>
       </section>
 
       <div className="whoiam-links">
@@ -30,39 +21,46 @@ function WhoIam() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="social-icons">
-            <Link
+            <a
+              href={"https://github.com/bartlomiejra"}
               className="social-icon-link github"
-              to="https://github.com/bartlomiejra"
-              target="_blank"
               aria-label="Github"
             >
               <i className="fab fa-github" />
-            </Link>
-            <Link
+            </a>
+            <a
+              className="social-icon-link linkedin"
+              href={
+                "https://www.linkedin.com/in/bart%C5%82omiej-racha%C5%84ski-5aa782137/"
+              }
+              aria-label="Goodreads"
+            >
+              <i className="fab fa-linkedin" />
+            </a>
+            <a
+              href={"https://www.instagram.com/mitchofminify/"}
               className="social-icon-link instagram"
-              to="https://www.instagram.com/mitchofminify/"
-              target="_blank"
               aria-label="Instagram"
             >
               <i className="fab fa-instagram" />
-            </Link>
+            </a>
 
-            <Link
+            <a
               className="social-icon-link twitter"
-              to="https://twitter.com/rachanski_b"
-              target="_blank"
+              href={"https://twitter.com/rachanski_b"}
               aria-label="Twitter"
             >
               <i className="fab fa-twitter" />
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link goodreads"
-              to="https://www.goodreads.com/user/show/111194458-mitchofminify"
-              target="_blank"
+              href={
+                "https://www.goodreads.com/user/show/111194458-mitchofminify"
+              }
               aria-label="Goodreads"
             >
               <i className="fab fa-goodreads" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

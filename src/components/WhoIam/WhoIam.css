@@ -1,5 +1,5 @@
 .whoiam-container {
-  background-color: #242424;
+  background-color: #022221;
   padding: 4rem 0 2rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,16 +8,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
 }
 
-.whoiam-subscription {
+.whoiam-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,30 +22,20 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin-bottom: 24px;
-  padding: 24px;
   color: #fff;
 }
 
-.whoiam-subscription > p {
+.whoiam-text > p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.whoiam-subscription-heading {
+.whoiam-text-heading {
   margin-bottom: 24px;
   font-size: 24px;
-}
-
-.whoiam-subscription-text {
-  margin-bottom: 24px;
-  font-size: 20px;
 }
 
 .whoiam-input {

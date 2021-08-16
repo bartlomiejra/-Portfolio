@@ -15,14 +15,22 @@ function Cards() {
               text="
 						A pomodore app to improve your productivity and manage your tasks"
               label="Project"
-              path="/services"
+              href="https://bartlomiejra.github.io/toDoPomodoro/
+           "
             />
+            <CardItem
+              src="images/img-6.png"
+              text="Travel Agencies page "
+              label="Project"
+              href="https://restor.net.pl/"
+            />
+
             <CardItem
               src="images/img-3.jpg"
               text="My system implementing PARA Method
 						"
               label="Blog Post"
-              path="/services"
+              href="https://stackoverflow.com/questions/31567729/how-to-create-dynamic-href-in-react-render-function"
             />
           </ul>
           <ul className="cards__items">
@@ -30,28 +38,16 @@ function Cards() {
               src="images/img-5.jpg"
               text="A few words about digital minimalism"
               label="Blog Post"
-              path="/services"
+              href="https://stackoverflow.com/questions/31567729/how-to-create-dynamic-href-in-react-render-function"
             />
             <CardItem
               src="images/img-7.jpg"
               text="Recommendation of the best books, fiction and non-fiction"
               label="Blog Post"
-              path="/services"
-            />
-            <CardItem
-              src="images/img-6.jpg"
-              text="New and cool photo and blogpost"
-              label="Blog Post"
-              path="/services"
+              href="https://stackoverflow.com/questions/31567729/how-to-create-dynamic-href-in-react-render-function"
             />
           </ul>
-          <h3>
-            {" "}
-            I think the value of a human being is how he helps mankind. I want
-            to create websites and an application that will be both beautiful
-            and functional. In my Projects, I focus on pragmatism and
-            availability.
-          </h3>
+          <h3> </h3>
         </div>
       </div>
     </div>
