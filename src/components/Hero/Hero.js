@@ -15,7 +15,7 @@ import { Link } from "react-scroll";
 function Hero() {
   return (
     <div className="hero-container" id="hero">
-      <div class="globe">
+      <div className="globe">
         <Link activeClass="active" to="hero" spy={true} smooth={true}>
           <svg
             width="547"
@@ -115,7 +115,7 @@ function Hero() {
               // initial={{ }}
               // exit={{ opacity: 0 }}
 
-              class="rocket"
+              className="rocket"
             >
               🚀
             </motion.p>
@@ -137,7 +137,7 @@ function Hero() {
         animate={{ opacity: 1 }}
         className="hero-btns"
       >
-        <Link activeClass="active" to="whoiam" spy={true} smooth={true}>
+        <Link active ClassName="active" to="whoiam" spy={true} smooth={true}>
           <Button
             className="btns"
             buttonStyle="btn--outline"
@@ -146,7 +146,7 @@ function Hero() {
             About Me
           </Button>
         </Link>
-        <Link activeClass="active" to="skills" spy={true} smooth={true}>
+        <Link active ClassName="active" to="skills" spy={true} smooth={true}>
           <Button
             className="btns"
             buttonStyle="btn--outline"
@@ -156,7 +156,7 @@ function Hero() {
           </Button>
         </Link>
 
-        <Link activeClass="active" to="project" spy={true} smooth={true}>
+        <Link active className="active" to="project" spy={true} smooth={true}>
           <Button
             className="btns"
             b
@@ -166,7 +166,7 @@ function Hero() {
             My Projects
           </Button>
         </Link>
-        <Link activeClass="active" to="project" spy={true} smooth={true}>
+        <Link active ClassName="active" to="contactme" spy={true} smooth={true}>
           <Button
             className="btns"
             b

@@ -7,10 +7,7 @@
   /* background-color: black; */
 }
 
-.home,
-.quotes,
-.posts,
-.sign-up {
+.home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,8 +20,6 @@
           justify-content: center;
   font-size: 3rem;
 }
-
-
 
 /* width */
 ::-webkit-scrollbar {
