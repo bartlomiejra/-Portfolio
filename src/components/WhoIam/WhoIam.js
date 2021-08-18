@@ -5,6 +5,8 @@ import "./WhoIam.css";
 function WhoIam() {
   return (
     <div className="whoiam-container" id="whoiam">
+      <img className="photo" src="images/avatar4.png" alt="profil"></img>
+
       <section className="whoiam-text">
         <p className="whoiam-text-heading">About Me</p>
         <p>
@@ -14,10 +16,6 @@ function WhoIam() {
         </p>
       </section>
 
-      <div className="whoiam-links">
-        <div className="whoiam-link-wrapper"></div>
-        <div className="whoiam-link-wrapper"></div>
-      </div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="social-icons">

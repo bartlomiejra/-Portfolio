@@ -1,6 +1,14 @@
 .contactme-container {
   height: 100vh;
   background-color: black;
-  color: pink;
+  color: red;
+}
+
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  color: red;
 }
 /*# sourceMappingURL=ContactMe.css.map */
