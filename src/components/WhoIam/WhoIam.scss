@@ -114,6 +114,16 @@
 	max-width: 1000px;
 	width: 100%;
   }
+
+  .dot{
+	  top: 30px;
+	  position:absolute;
+	  z-index: 30;
+	  height: 70px;
+//   width: 70px;
+  background-color: #bbb;
+  border-radius: 50%;
+  }
   
   .social-media-wrap {
 	display: flex;
@@ -150,7 +160,8 @@
   }
 
   .photo{
-	  display: flex;
+	//   display: flex;
+	position: absolute;
 	      height: 100%;
 
 	//   flex-direction: column;
@@ -180,5 +191,10 @@
 	}
   }
   
+  .solveaproblem{
+	      display: flex;
+		  justify-content: center;
+
+  }
   @media screen and (max-width: 768px) {
   }

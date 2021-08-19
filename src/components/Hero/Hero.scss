@@ -6,6 +6,17 @@
 }
 
 
+@keyframes MoveUpDown {
+	0%, 100% {
+	  bottom: 0;
+	}
+	50% {
+		
+	  bottom: 4px;
+	}
+  }
+
+
 .globe {
 	border: 2px solid #ffffff;
 	border-radius: 50%;
@@ -20,13 +31,32 @@
 	position: fixed
 	;
 	z-index: 150;
+	transition: all 0.3s ease-out;
+
 
 	
 	
   }
 
-  svg {
+  .globe:hover{
+	  cursor:pointer; 
+	  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+	  outline-color: rgba(255, 255, 255, 0);
+	  outline-offset: 15px;
+	  text-shadow: 1px 1px 2px #427388; 
+	  animation: MoveUpDown 0.8s linear infinite;
+	  
+
+
+  }
+
+  .globesvg {
 	animation: rotation 20s linear 0s infinite;
+	
+	
+  }
+  .globesvg:hover {
+	animation: rotation 3s linear 10s infinite;
 	
 	
   }
@@ -109,7 +139,6 @@ top: 100px;
 }
 
 .Typist>h2{
-color: red;
 font-size: 30px;
 }
 .hero-btns{

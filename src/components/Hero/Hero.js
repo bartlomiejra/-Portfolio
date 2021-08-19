@@ -18,6 +18,7 @@ function Hero() {
       <div className="globe">
         <Link activeClass="active" to="hero" spy={true} smooth={true}>
           <svg
+            class="globesvg"
             width="547"
             height="140"
             viewBox="0 0 547 140"

@@ -4,6 +4,8 @@ import "../Contactme/ContactMe.css";
 import emailjs from "emailjs-com";
 
 import "./ContactMe.css";
+import "../Button/Button.css";
+import { default as heart } from "./heart.svg";
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -30,22 +32,26 @@ export default function ContactUs() {
   return (
     <div className="contactme-container" id="contactme">
       <h2> Contact Me</h2>
+      <p className="solveaproblem">
+        <div class="heartparagraf">I’d</div>
+        <img className="heart" src={heart} alt="heartsvg" />
+        <div class="heartparagraf">to solve a problem</div>
+      </p>
       <form className="contact-form" onSubmit={sendEmail}>
         <input type="hidden" name="number" />
         <label>Name</label>
         <input
           type="text"
           name="name"
-          placeholder="name"
           //   onchange={this.handleChange}
         />
         <label>Email</label>
         <input type="email" name="email" />
         <label>Subject</label>
-        <input type="email" name="subject" />
+        <input type="text" name="subject" />
         <label>Message</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input type="submit" className="send btn btn--outline" value="Send" />
       </form>
     </div>
   );

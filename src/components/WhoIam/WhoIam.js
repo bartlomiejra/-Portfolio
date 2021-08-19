@@ -12,10 +12,11 @@ function WhoIam() {
         <p>
           I think the value of a human being is how he helps mankind. I want to
           create websites and an application that will be both beautiful and
-          functional. In my Projects, I focus on pragmatism and availability.
+          functional. When creating my projects, I focus on pragmatism and
+          accessibility
         </p>
       </section>
-
+      <span className="dot"></span>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="social-icons">

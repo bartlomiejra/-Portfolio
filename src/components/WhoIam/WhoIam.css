@@ -140,6 +140,15 @@
   width: 100%;
 }
 
+.dot {
+  top: 30px;
+  position: absolute;
+  z-index: 30;
+  height: 70px;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+
 .social-media-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,9 +199,7 @@
 }
 
 .photo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: absolute;
   height: 100%;
 }
 
@@ -218,5 +225,14 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.solveaproblem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=WhoIam.css.map */
