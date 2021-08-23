@@ -82,7 +82,7 @@ function Hero() {
       >
         <motion.h1>Hello friend</motion.h1>
 
-        <Typist.Backspace count={13} delay={200} />
+        <Typist.Backspace count={13} delay={3000} />
         {/* <cursor show={false} /> */}
       </Typist>
 

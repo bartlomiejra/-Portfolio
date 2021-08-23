@@ -13,7 +13,7 @@ export default function ContactUs() {
 
     emailjs
       .sendForm(
-        "gmail",
+        "service_uqgpkuj",
         "template_6sbo9eg",
         e.target,
         "user_VTnNjBm1JLligjgvQbxch",

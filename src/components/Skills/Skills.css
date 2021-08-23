@@ -9,12 +9,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: top;
-      -ms-flex-pack: top;
-          justify-content: top;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /* ADJUSTMENT */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.skills__container h3 {
+  color: #FF7A8A;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 .aboutme__container {
@@ -33,5 +39,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 820px) {
+  .techlogo {
+    max-width: 15vw;
+  }
 }
 /*# sourceMappingURL=Skills.css.map */

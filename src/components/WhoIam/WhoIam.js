@@ -8,7 +8,6 @@ function WhoIam() {
       <img className="photo" src="images/avatar4.png" alt="profil"></img>
 
       <section className="whoiam-text">
-        <p className="whoiam-text-heading">About Me</p>
         <p>
           I think the value of a human being is how he helps mankind. I want to
           create websites and an application that will be both beautiful and

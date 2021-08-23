@@ -12,25 +12,33 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-9.jpg"
-              text="
-						A pomodore app to improve your productivity and manage your tasks"
+              text="Pomodoro App"
               label="Project"
-              href="https://bartlomiejra.github.io/toDoPomodoro/
-           "
+              href="https://bartlomiejra.github.io/toDoPomodoro/"
+              githublink="https://github.com/bartlomiejra/toDoPomodoro"
+              tags="javascript"
             />
             <CardItem
               src="images/img-6.png"
               text="Travel Agencies page "
               label="Project"
               href="https://restor.net.pl/"
+              tags="wordpress"
             />
 
-            <CardItem
+            {/* <CardItem
               src="images/img-3.jpg"
-              text="My system implementing PARA Method
-						"
-              label="Blog Post"
-              href="https://stackoverflow.com/questions/31567729/how-to-create-dynamic-href-in-react-render-function"
+              text="My system implementing PARA Method"
+              label="Project"
+              href="https://dev.to/"
+            /> */}
+            <CardItem
+              src="images/img-33.png"
+              text="This Portfolio"
+              label="Project"
+              href="https://github.com/bartlomiejra"
+              githublink="https://kind-saha-d01763.netlify.app/"
+              tags="reactjs"
             />
           </ul>
           <ul className="cards__items">
@@ -38,13 +46,15 @@ function Cards() {
               src="images/img-5.jpg"
               text="A few words about digital minimalism"
               label="Blog Post"
-              href="https://stackoverflow.com/questions/31567729/how-to-create-dynamic-href-in-react-render-function"
+              href="https://dev.to/"
+              tags="blog post"
             />
             <CardItem
               src="images/img-7.jpg"
               text="Recommendation of the best books, fiction and non-fiction"
               label="Blog Post"
-              href="https://stackoverflow.com/questions/31567729/how-to-create-dynamic-href-in-react-render-function"
+              href="https://dev.to/"
+              tags="blog post"
             />
           </ul>
           <h3> </h3>
