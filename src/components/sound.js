@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sound from "react-sound";
 import TheOtherSide from "./Hero/music.mp3";
-import "./sounds.css";
+import "./sound.css";
 
 // import {Frame,   Scroll } from "framer"
 // super(props);
@@ -17,6 +17,7 @@ const PlaySound = (
         {isPlaying ? "Play" : "Stop"}
       </button>
       <Sound
+        classList="ss"
         url={TheOtherSide}
         playStatus={Sound.status.PLAYING}
         playFromPosition={300}
