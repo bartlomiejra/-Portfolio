@@ -39,17 +39,17 @@ function Hero() {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 15,
             },
             anim: {
-              speed: 0.002,
-              size_min: 0.1,
+              speed: 0.0001,
+              size_min: 0.01,
             },
             size: {
               value: 1,
               anim: {
                 speed: 0.002,
-                size_min: 0.1,
+                size_min: 0.01,
               },
             },
           },
@@ -63,9 +63,16 @@ function Hero() {
           },
         }}
       />
-
       {/* <video src="/videos/video.mov"  type="video/quicktime"  autoPlay loop muted /> */}
+      <Typist
+        cursor={{ show: false, hideWhenDone: true, hideWhenDoneDelay: -1 }}
+        avgTypingDelay={29}
+      >
+        <motion.h1>Hello friend</motion.h1>
 
+        <Typist.Backspace count={12} delay={9000} />
+        {/* <cursor show={false} /> */}
+      </Typist>
       <motion.img
         // animate={{scale: 1.05}}
 
@@ -75,16 +82,6 @@ function Hero() {
         src="images/avatar.jpg"
         alt="profil"
       ></motion.img>
-
-      <Typist
-        cursor={{ show: false, hideWhenDone: true, hideWhenDoneDelay: 0 }}
-        avgTypingDelay={30}
-      >
-        <motion.h1>Hello friend</motion.h1>
-
-        <Typist.Backspace count={13} delay={3000} />
-        {/* <cursor show={false} /> */}
-      </Typist>
 
       <motion.p
         initial={{ opacity: 0 }}
@@ -131,7 +128,6 @@ function Hero() {
           Front-end developer from Poland
         </motion.p>
       </motion.p>
-
       <motion.div
         initial={{ opacity: 0 }}
         transition={{ duration: 5 }}

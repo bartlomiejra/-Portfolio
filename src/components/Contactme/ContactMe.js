@@ -53,6 +53,7 @@ export default function ContactUs() {
         <textarea name="message" />
         <input type="submit" className="send btn btn--outline" value="Send" />
       </form>
+      {/* <footer>2021 by bartlomiejra</footer> */}
     </div>
   );
 }

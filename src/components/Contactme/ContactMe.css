@@ -85,6 +85,15 @@ h2 {
           justify-content: center;
 }
 
+.solveaproblem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .heartparagraf {
   margin-top: 16px;
   color: white;
@@ -163,5 +172,11 @@ textarea {
   margin: 5px 5px 5px 5px;
   height: 50px;
   width: 50px;
+}
+
+@media screen and (max-width: 820px) {
+  .contactme-container {
+    padding: 10px 10px 0 10px;
+  }
 }
 /*# sourceMappingURL=ContactMe.css.map */

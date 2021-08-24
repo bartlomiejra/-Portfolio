@@ -7,20 +7,12 @@
 	// flex-direction: column;
 	// align-items: center;
 	height: 100vh;
-	position: relative;
+	// position: relative;
 	// z-index: -1;
   }
-//  .whoiam-container::after {
-//     content: '';
-//     border-top-left-radius: 90% 100%;
-//     border-top-right-radius: 30% 100%;
-//     position: absolute;
-//     bottom: 0;
-//     z-index: -1;
-//     width: 100%;
-//     background-color: #242424;
-//     height: 85%;
-// }
+
+
+
 
   .whoiam-text {
     flex-direction: column;
@@ -129,21 +121,12 @@
   
   .social-media {
     position: absolute;
-    bottom: 20px;
+    // bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 101%;
+	width: 100%;
   }
 
-//   .dot{
-// 	  top: 30px;
-// 	  position:absolute;
-// 	  z-index: 30;
-// 	  height: 70px;
-// //   width: 70px;
-//   background-color: #bbb;
-//   border-radius: 50%;
-//   }
   
   .social-media-wrap {
 	display: flex;
@@ -182,7 +165,7 @@
   .photo{
 	//   display: flex;
 	position: absolute;
-	      height: 100%;
+	    //   height: 100%;
 
 	//   flex-direction: column;
 	//   top: 0;
@@ -191,7 +174,7 @@
   
   @media screen and (max-width: 820px) {
 .photo{
-	max-width: 100vw;
+	max-width: 100vh;
 
 }
 
@@ -213,13 +196,30 @@
   
 	.social-media-wrap {
 	  flex-direction: column;
+	      margin: 5px auto 0 auto;
+
 	}
+	
+	.solveaproblem{
+		display: flex;
+		justify-content: center;
+		
   }
   
-  .solveaproblem{
-	      display: flex;
-		  justify-content: center;
+  .whoiam-text{
+	display: inline;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.whoiam-text > p {
+	font-size: 4vw;
+	letter-spacing: 15px;
+	max-width: 75vw;
+}
+}
 
-  }
-  @media screen and (max-width: 768px) {
-  }
+
+
+
+  
+  
