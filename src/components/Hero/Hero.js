@@ -10,8 +10,6 @@ import "react-typist/dist/Typist.css";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-scroll";
 
-// import {Frame,   Scroll } from "framer"
-
 function Hero() {
   return (
     <div className="hero-container" id="hero">

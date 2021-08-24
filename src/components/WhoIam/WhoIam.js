@@ -1,11 +1,12 @@
 import React from "react";
 // import { Button } from "../Button/Button";
 import "./WhoIam.css";
+// import ScrollEffect from "react-scroll-effects";
 
 function WhoIam() {
   return (
     <div className="whoiam-container" id="whoiam">
-      <img className="photo" src="images/avatar4.png" alt="profil"></img>)
+      <img className="photo" src="images/avatar4.png" alt="profil"></img>
       <section className="whoiam-text">
         <p>
           I think the value of a human being is how he helps mankind. I want to
@@ -14,6 +15,7 @@ function WhoIam() {
           importance to accessibility.
         </p>
       </section>
+      {/* </ScrollAnimation> */}
       <span className="dot"></span>
       <section className="social-media">
         <div className="social-media-wrap">
