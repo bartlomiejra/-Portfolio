@@ -15,7 +15,7 @@ function Home() {
       <Skills />
       <Cards />
       <ContactMe />
-      {/* <PlaySound /> */}
+      <PlaySound />
     </>
   );
 }
