@@ -61,29 +61,19 @@ function Hero() {
           },
         }}
       />
-      {/* <video src="/videos/video.mov"  type="video/quicktime"  autoPlay loop muted /> */}
-      <Typist
-        cursor={{ show: false, hideWhenDone: true, hideWhenDoneDelay: -1 }}
-        avgTypingDelay={29}
-      >
-        <motion.h1>Hello friend</motion.h1>
-
-        <Typist.Backspace count={12} delay={9000} />
-        {/* <cursor show={false} /> */}
-      </Typist>
       <motion.img
         // animate={{scale: 1.05}}
 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
+        transition={{ delay: 0.1, duration: 1 }}
         src="images/avatar.jpg"
         alt="profil"
       ></motion.img>
 
       <motion.p
         initial={{ opacity: 0 }}
-        transition={{ delay: 2, duration: 1 }}
+        transition={{ delay: 0.2, duration: 1 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
@@ -119,7 +109,7 @@ function Hero() {
         </p>
         <motion.p
           className="name"
-          transition={{ delay: 2.5 }}
+          transition={{ delay: 0.3 }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
