@@ -108,8 +108,8 @@ justify-content: space-around;
   /* Social Icons */
   .social-icon-link {
 	color: #fff;
-	
-	font-size: 3rem;
+	margin: 10px;
+	font-size: 4rem;
   }
 
    
@@ -147,7 +147,7 @@ justify-content: space-around;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 300px;
+	// width: 300px;
   }
   
   .social-logo {
@@ -171,6 +171,7 @@ justify-content: space-around;
 	//   display: flex;
 	position: absolute;
 	min-height: 100vh;
+	
 	// width: 100vw;
 	    //   height: 100%;
 
@@ -252,7 +253,7 @@ max-width: 100vw;
 	.social-icon-link {
 	color: #fff;
 	
-	font-size: 4rem;
+	font-size: 2rem;
 	margin: 5px;
   }
 	.whoiam-text{
@@ -285,7 +286,7 @@ max-width: 100vw;
 			}
 			.whoiam-text > p {
 			min-width: 100vw; 
-			font-size: 6.5vw;
+			font-size: 5.5vw;
 			letter-spacing: 15px;
 			// max-width: 75vw;
 			font-weight: 500;

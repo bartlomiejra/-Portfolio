@@ -130,7 +130,8 @@
 /* Social Icons */
 .social-icon-link {
   color: #fff;
-  font-size: 3rem;
+  margin: 10px;
+  font-size: 4rem;
 }
 
 .social-icon-link:hover {
@@ -173,7 +174,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 300px;
 }
 
 .social-logo {
@@ -252,7 +252,7 @@
 @media (max-width: 759px) {
   .social-icon-link {
     color: #fff;
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 5px;
   }
   .whoiam-text {
@@ -280,7 +280,7 @@
   }
   .whoiam-text > p {
     min-width: 100vw;
-    font-size: 6.5vw;
+    font-size: 5.5vw;
     letter-spacing: 15px;
     font-weight: 500;
   }

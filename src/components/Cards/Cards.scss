@@ -215,11 +215,14 @@
 	}
   }
   
-  @media only screen and (min-width: 1024px) {
-	.cards__items {
-	  display: flex;
-	}
-  }
+//   @media only screen and (max-width: 1024px) {
+// 	// .cards__items {
+// 	//   display: flex;
+// 	// }
+// 	h1{
+// 		font-size: 9vw;
+// 	}
+//   }
   
   @media only screen and (max-width: 1024px) {
 	.cards__item {
@@ -237,8 +240,12 @@
 	
 	}
 	
-	@media (min-width: 768px){
-	
+	@media (max-width: 768px){
+.btnlink{
+	 padding: 0px 0px; 
+
+}
+
 	
 	}
 	
