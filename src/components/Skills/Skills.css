@@ -1,5 +1,5 @@
 .skills__container {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #242424;
   padding: 4rem 0 2rem 0;
   display: -webkit-box;

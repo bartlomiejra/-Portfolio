@@ -6,7 +6,7 @@
 	display: flex;
 	// flex-direction: column;
 	// align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 	// position: relative;
 	// z-index: -1;
 	flex-direction: column;
@@ -170,7 +170,7 @@ justify-content: space-around;
   .photo{
 	//   display: flex;
 	position: absolute;
-	height: 100vh;
+	min-height: 100vh;
 	// width: 100vw;
 	    //   height: 100%;
 
@@ -229,4 +229,38 @@ max-width: 100vw;
 
 
   
+@media (max-width: 1200px){
+	
+	
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
   
+ 
+
+}
+
+
+// @media screen and (max-width: 960px) {
+
+
+
+
+// }
+
+@media (max-width: 759px){
+
+}
+
+
+@media (max-width: 640px){
+	
+
+
+}
+
+
+@media (max-width: 400px){
+	
+
+}

@@ -97,7 +97,7 @@ path {
 .hero-container {
   /* background: url('images/img,home.jpg') center center/cover no-repeat; */
   /* opacity: 0.2; */
-  height: 116vh;
+  min-height: 116vh;
   background-color: #353b47;
   width: 100%;
   display: -webkit-box;
