@@ -17,7 +17,7 @@ const PlaySound = (
         {isPlaying ? "Play" : "Stop"}
       </button>
       <Sound
-        classList="ss"
+        classList="npm startss"
         url={TheOtherSide}
         playStatus={Sound.status.PLAYING}
         playFromPosition={300}
