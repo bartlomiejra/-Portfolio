@@ -248,4 +248,41 @@
     max-width: 75vw;
   }
 }
+
+@media (max-width: 759px) {
+  .social-icon-link {
+    color: #fff;
+    font-size: 4rem;
+    margin: 5px;
+  }
+  .whoiam-text {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    min-width: 100vw;
+  }
+  .whoiam-text > p {
+    min-width: 100vw;
+    font-size: 5.5vw;
+    letter-spacing: 25px;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 640px) {
+  .whoiam-text {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    min-width: 100vw;
+  }
+  .whoiam-text > p {
+    min-width: 100vw;
+    font-size: 6.5vw;
+    letter-spacing: 15px;
+    font-weight: 500;
+  }
+}
 /*# sourceMappingURL=WhoIam.css.map */
