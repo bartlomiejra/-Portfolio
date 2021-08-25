@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sound from "react-sound";
-import TheOtherSide from "./Hero/music.mp3";
-import "./sound.css";
+import TheOtherSide from "./music.mp3";
+import "./footer.css";
 
 // import {Frame,   Scroll } from "framer"
 // super(props);
@@ -12,20 +12,20 @@ const PlaySound = (
 ) => {
   const [isPlaying, setIsPlaying] = useState(false);
   return (
-    <div>
-      <button classList="sound" onClick={() => setIsPlaying(!isPlaying)}>
-        {isPlaying ? "Play" : "Stop"}
+    <footer>
+      <button onClick={() => setIsPlaying(!isPlaying)}>
+        {!isPlaying ? "@" : <i class="fas fa-volume-up"> </i>}
       </button>
+      {new Date().getFullYear()} by bartlomiejra
       <Sound
-        classList="npm startss"
         url={TheOtherSide}
-        playStatus={Sound.status.PLAYING}
+        playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
         playFromPosition={300}
-        onloading={handleSongLoading}
+        onLoading={handleSongLoading}
         onPlaying={handleSongPlaying}
-        onFinishedPlaying={handleSongPlaying}
+        onFinishedPlaying={handleSongFinishedPlaying}
       />
-    </div>
+    </footer>
   );
 };
 

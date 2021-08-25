@@ -118,6 +118,7 @@ function Hero() {
           </AnimatePresence>
         </p>
         <motion.p
+          className="name"
           transition={{ delay: 2.5 }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

@@ -9,6 +9,11 @@
 	height: 100vh;
 	// position: relative;
 	// z-index: -1;
+	flex-direction: column;
+justify-content: space-around;
+
+
+	
   }
 
 
@@ -120,7 +125,7 @@
   }
   
   .social-media {
-    position: absolute;
+    // position: absolute;
     // bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;

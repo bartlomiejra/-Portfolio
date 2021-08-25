@@ -31,8 +31,8 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   top: 60px;
-  right: 0px;
   position: fixed;
+  right: -30px;
   z-index: 150;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -191,47 +191,71 @@ p {
   margin-top: 8px;
 }
 
-@media screen and (max-width: 960px) {
-  .Typist > h1 {
-    font-size: 50px;
-    margin-top: -150px;
-  }
-  .globe {
-    position: absolute;
-  }
-  .hero-btns {
-    width: 80%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .icon {
-    margin-top: 8px;
-  }
+.Typist > h1 {
+  font-size: 50px;
+  margin-top: -150px;
 }
 
-@media screen and (max-width: 768px) {
+.globe {
+  position: absolute;
+}
+
+.hero-btns {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon {
+  margin-top: 8px;
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  /* CSS */
+  .globe {
+    height: 150px;
+    width: 150px;
+    top: 100px;
+  }
   .Typist > h1 {
+    color: red;
     font-size: 50px;
     margin-top: -100px;
+  }
+  .hero-container > img {
+    height: 400px;
+    width: 400px;
   }
   .hero-btns {
     width: 80%;
     display: block;
+  }
+  .name, .rocket {
+    font-size: 5vw;
   }
   .Typist > p {
     font-size: 30px;
   }
-  btn-mobile {
-    z-index: 30;
+  .btn {
+    font-size: 3vw;
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-btns {
+    width: 80%;
     display: block;
-    text-decoration: none;
   }
   .btn {
+    font-size: 3vw;
     width: 100%;
+    margin: 10px;
   }
 }
 /*# sourceMappingURL=Hero.css.map */

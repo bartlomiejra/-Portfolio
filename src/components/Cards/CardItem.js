@@ -1,4 +1,5 @@
 import React from "react";
+
 function CardItem(props) {
   return (
     <>
@@ -49,4 +50,5 @@ function CardItem(props) {
     </>
   );
 }
+
 export default CardItem;

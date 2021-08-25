@@ -184,6 +184,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: 2px solid gray;
 }
 
 .btnlink a {

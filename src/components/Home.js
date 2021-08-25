@@ -5,7 +5,7 @@ import Cards from "./Cards/Cards";
 import WhoIam from "./WhoIam/WhoIam";
 import Skills from "./Skills/Skills";
 import ContactMe from "./Contactme/ContactMe";
-import PlaySound from "./sound";
+import PlaySound from "./footer/footer";
 
 function Home() {
   return (
