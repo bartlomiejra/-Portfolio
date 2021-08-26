@@ -84,6 +84,13 @@
   	
 	
 	
+  "react-intersection-observer": "^8.32.0",
+	
+	
+	
+  	
+	
+	
   "react-particles-js": "^3.4.1",
 	
 	
@@ -229,15 +236,6 @@
   	
 	
 	
-	
-	
-	
-  	
-	
-	
-  	
-	
-	
   "react-app",
 	
 	
@@ -373,12 +371,6 @@
   	
 	
 	
-	
-	
-	
-  	
-	
-	
   "eslint-config-airbnb": "^18.2.1",
 	
 	
@@ -443,12 +435,6 @@
 	
 	
   "node-sass": "^6.0.1"
-	
-	
-	
-  	
-	
-
 	
 	
 	

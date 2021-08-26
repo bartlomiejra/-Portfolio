@@ -17,9 +17,13 @@
           align-items: center;
 }
 
+.skills__container h2 {
+  font-size: 3rem;
+}
+
 .skills__container h3 {
   color: #FF7A8A;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 

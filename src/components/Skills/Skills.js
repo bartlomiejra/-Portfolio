@@ -23,6 +23,7 @@ import { default as vim } from "./svg/vim.svg";
 function Skills() {
   return (
     <div className="skills__container">
+      <h2>Tech Stack</h2>
       <h3>I am proficient in</h3>
       <div className="skills">
         <img src={html} alt="html" className="techlogo" />
