@@ -6,7 +6,7 @@
 h1 {
   text-align: center;
   color: white;
-  font-size: 7vw;
+  font-size: 4vw;
 }
 
 .cards__container {
@@ -28,6 +28,9 @@ h1 {
 
 .cards__items {
   margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .cards__item {
