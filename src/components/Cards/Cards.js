@@ -40,8 +40,7 @@ function Cards() {
               githublink="https://kind-saha-d01763.netlify.app/"
               tags="reactjs"
             />
-          </ul>
-          <ul className="cards__items">
+
             <CardItem
               src="images/img-5.jpg"
               text="A few words about digital minimalism"

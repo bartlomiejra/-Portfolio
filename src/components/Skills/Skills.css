@@ -33,9 +33,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: top;
-      -ms-flex-pack: top;
-          justify-content: top;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -43,6 +40,18 @@
 
 .techlogo {
   margin: 5px;
+}
+
+.skills {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 820px) {

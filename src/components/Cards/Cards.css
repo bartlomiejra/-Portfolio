@@ -6,7 +6,6 @@
 h1 {
   text-align: center;
   color: white;
-  font-size: 4vw;
 }
 
 .cards__container {
@@ -31,6 +30,8 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .cards__item {
@@ -39,10 +40,13 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
   margin: 0 1rem;
   border-radius: 10px;
+  min-width: 400px;
+  min-height: 300px;
+  margin-bottom: 20px;
 }
 
 .cards__item__link {
@@ -220,15 +224,17 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .cards__item {
-    margin-bottom: 2rem;
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
-@media (max-width: 768px) {
-  .btnlink {
-    padding: 0px 0px;
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=Cards.css.map */
