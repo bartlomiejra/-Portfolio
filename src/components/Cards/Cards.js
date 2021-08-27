@@ -47,8 +47,8 @@ function Cards() {
                             src="images/img-33.png"
                             text="This Portfolio"
                             label="Project"
-                            href="https://github.com/bartlomiejra"
-                            githublink="https://kind-saha-d01763.netlify.app/"
+                            githublink="https://github.com/bartlomiejra/-Portfolio"
+                            href="https://kind-saha-d01763.netlify.app/"
                             tags="reactjs"
                         />
 
