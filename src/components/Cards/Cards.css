@@ -48,10 +48,8 @@ h1 {
   margin: 0 1rem;
   border-radius: 10px;
   min-width: 30vw;
-  min-height: 300px;
   margin-bottom: 20px;
   max-width: 30vw;
-  max-height: 50vh;
 }
 
 .cards__item__link {
@@ -64,6 +62,7 @@ h1 {
           flex-flow: column;
   width: 100%;
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+          filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
   overflow: hidden;
@@ -173,7 +172,7 @@ h1 {
 
 .btnlink {
   margin: 5px;
-  padding: 10px 10px;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
