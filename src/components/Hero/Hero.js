@@ -4,6 +4,7 @@ import '../../App.css';
 import { Button } from '../Button/Button';
 import './Hero.css';
 // import  { Component } from 'react';
+
 // import Typist from "react-typist";
 import Particles from 'react-particles-js';
 import 'react-typist/dist/Typist.css';

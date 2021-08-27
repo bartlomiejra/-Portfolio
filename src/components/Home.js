@@ -7,6 +7,7 @@ import Skills from './Skills/Skills';
 import ContactMe from './Contactme/ContactMe';
 import PlaySound from './footer/footer';
 import { motion } from 'framer-motion';
+import ScrollButton from '../components/Button/ScrollButton';
 
 function Home() {
     // const [element, controls] = useScroll;
@@ -17,6 +18,7 @@ function Home() {
             // ref={element}
         >
             <Hero />
+            <ScrollButton />
             <WhoIam />
             <Skills />
             <Cards />

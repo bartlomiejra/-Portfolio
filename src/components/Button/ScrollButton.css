@@ -1,0 +1,10 @@
+.scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  height: 90px;
+  font-size: 3rem;
+  z-index: 3;
+  cursor: pointer;
+}
+/*# sourceMappingURL=ScrollButton.css.map */
