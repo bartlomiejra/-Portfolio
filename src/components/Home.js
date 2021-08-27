@@ -7,7 +7,6 @@ import Skills from './Skills/Skills';
 import ContactMe from './Contactme/ContactMe';
 import PlaySound from './footer/footer';
 import { motion } from 'framer-motion';
-import { useScroll } from './useScroll';
 
 function Home() {
     // const [element, controls] = useScroll;

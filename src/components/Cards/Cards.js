@@ -2,17 +2,7 @@ import React from 'react';
 import CardItem from '../Cards/CardItem';
 import '../Cards/Cards.css';
 import { motion } from 'framer-motion';
-import {
-    headerAnimation,
-    imageAnimation,
-    textAnimation,
-    fromUp,
-    videoAnimation,
-    fromDown,
-    fromRightAnimation,
-    fromLeftAnimation,
-    cardAnimation,
-} from '../../Animation';
+import { fromUp } from '../../Animation';
 import { useScroll } from '../useScroll';
 
 function Cards() {

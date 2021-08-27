@@ -21,12 +21,7 @@ import { default as bash } from './svg/bash.svg';
 import { default as vim } from './svg/vim.svg';
 import { motion } from 'framer-motion';
 import {
-    headerAnimation,
     imageAnimation,
-    textAnimation,
-    fromUp,
-    videoAnimation,
-    fromDown,
     fromRightAnimation,
     fromLeftAnimation,
 } from '../../Animation';

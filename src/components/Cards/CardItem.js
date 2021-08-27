@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { headerAnimation, imageAnimation } from '../../Animation';
+import { headerAnimation } from '../../Animation';
 import { useScroll } from '../useScroll';
 
 function CardItem(props) {
@@ -8,10 +8,8 @@ function CardItem(props) {
     return (
         <>
             <motion.li
-                variants={headerAnimation}
                 animate={controls}
                 transition={{ dalay: 0.2, type: 'spring' }}
-                className="anim"
                 ref={element}
                 className="cards__item"
                 variants={headerAnimation}

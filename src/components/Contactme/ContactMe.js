@@ -7,11 +7,7 @@ import './ContactMe.css';
 import '../Button/Button.css';
 import { default as heart } from './heart.svg';
 import { motion } from 'framer-motion';
-import {
-    headerAnimation,
-    imageAnimation,
-    cardAnimation,
-} from '../../Animation';
+import { cardAnimation } from '../../Animation';
 import { useScroll } from '../useScroll';
 export default function ContactUs() {
     function sendEmail(e) {

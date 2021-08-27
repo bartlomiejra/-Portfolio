@@ -9,11 +9,7 @@ import Particles from 'react-particles-js';
 import 'react-typist/dist/Typist.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { headerAnimation, imageAnimation, fromDown } from '../../Animation';
-import { useScroll } from '../useScroll';
 function Hero() {
-    const [element, controls] = useScroll();
-
     return (
         <div className="hero-container" id="hero">
             <motion.div
