@@ -19,10 +19,11 @@
 
 .skills__container h2 {
   font-size: 3rem;
+  color: white;
 }
 
 .skills__container h3 {
-  color: #FF7A8A;
+  color: #ff7a8a;
   font-size: 2rem;
   margin-bottom: 10px;
 }

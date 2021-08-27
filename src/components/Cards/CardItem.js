@@ -16,7 +16,7 @@ function CardItem(props) {
                 className="cards__item"
                 variants={headerAnimation}
             >
-                <div href={props.href} className="cards__item__link">
+                <a href={props.href} className="cards__item__link">
                     <figure
                         className="cards__item__pic-wrap"
                         data-category={props.label}
@@ -48,19 +48,8 @@ function CardItem(props) {
                             ''
                         )}
                         {console.log(props.githublink)}
-                        <button className="btnlink">
-                            <i class="fas fa-link" aria-hidden="true"></i>
-                            <a
-                                rel="noreferrer"
-                                target="_blank"
-                                className="btn btn-outline"
-                                href={props.href}
-                            >
-                                live
-                            </a>
-                        </button>
                     </div>
-                </div>
+                </a>
             </motion.li>
         </>
     );

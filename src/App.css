@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
-  /* background-color: black; */
 }
 
 .home {
@@ -21,7 +20,6 @@
   font-size: 3rem;
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }

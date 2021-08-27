@@ -2,7 +2,7 @@
   min-height: 100vh;
   background-color: black;
   color: white;
-  padding: 2rem 10rem 0rem 10rem;
+  padding: 2rem 10rem 0 10rem;
 }
 
 @-webkit-keyframes beat {
@@ -15,8 +15,8 @@
     border-radius: 40px;
     height: 2.3rem;
     width: 2.3rem;
-    -webkit-transition: top .4s;
-    transition: top .4s;
+    -webkit-transition: top 0.4s;
+    transition: top 0.4s;
   }
   50% {
     border-radius: 20px;
@@ -50,8 +50,8 @@
     border-radius: 40px;
     height: 2.3rem;
     width: 2.3rem;
-    -webkit-transition: top .4s;
-    transition: top .4s;
+    -webkit-transition: top 0.4s;
+    transition: top 0.4s;
   }
   50% {
     border-radius: 20px;
@@ -119,7 +119,8 @@ h2 {
   color: white;
 }
 
-input, textarea {
+input,
+textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -136,14 +137,15 @@ input, textarea {
           box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
   outline: 1px solid;
   outline-color: rgba(255, 255, 255, 0.5);
-  outline-offset: 0px;
+  outline-offset: 0;
   text-shadow: none;
   padding: 8px 20px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
-input:focus, input:hover {
+input:focus,
+input:hover {
   border: 5px;
 }
 
@@ -156,7 +158,7 @@ input:focus, input:hover {
 }
 
 label {
-  margin: 5px 0px 1px 0px;
+  margin: 5px 0 1px 0;
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.5);
 }

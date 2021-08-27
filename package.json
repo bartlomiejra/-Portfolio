@@ -161,6 +161,13 @@
   	
 	
 	
+  "stylelint-selector-bem-pattern": "^2.1.1",
+	
+	
+	
+  	
+	
+	
   "web-vitals": "^1.1.2"
 	
 	
@@ -434,7 +441,21 @@
   	
 	
 	
-  "node-sass": "^6.0.1"
+  "node-sass": "^6.0.1",
+	
+	
+	
+  	
+	
+	
+  "stylelint-config-standard": "^22.0.0",
+	
+	
+	
+  	
+	
+	
+  "stylelint-high-performance-animation": "^1.5.2"
 	
 	
 	
