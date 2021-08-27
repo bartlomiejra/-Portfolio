@@ -35,7 +35,7 @@ export const cardAnimation = {
 
 export const fromUp = {
     hidden: {
-        y: 200,
+        y: 0,
         opacity: 0,
     },
     show: {
@@ -43,9 +43,10 @@ export const fromUp = {
         opacity: 1,
     },
 };
+
 export const fromDown = {
     hidden: {
-        y: -200,
+        y: -100,
         opacity: 0,
     },
     show: {
@@ -62,12 +63,12 @@ export const topContainerAnimation = {
         opacity: 1,
     },
 };
-export const videoAnimation = {
-    hidden: { x: -800, opacity: 0 },
+export const fromLeftAnimation = {
+    hidden: { x: -100, opacity: 0 },
     show: { x: 0, opacity: 1 },
 };
-export const reasonsAnimation = {
-    hidden: { x: 800, opacity: 0 },
+export const fromRightAnimation = {
+    hidden: { x: 100, opacity: 0 },
     show: { x: 0, opacity: 1 },
 };
 

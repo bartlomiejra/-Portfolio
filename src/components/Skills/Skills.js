@@ -20,13 +20,45 @@ import { default as gatsby } from './svg/gatsby.svg';
 import { default as bash } from './svg/bash.svg';
 import { default as vim } from './svg/vim.svg';
 import { motion } from 'framer-motion';
+import {
+    headerAnimation,
+    imageAnimation,
+    textAnimation,
+    fromUp,
+    videoAnimation,
+    fromDown,
+    fromRightAnimation,
+    fromLeftAnimation,
+} from '../../Animation';
+import { useScroll } from '../useScroll';
 
 function Skills() {
+    const [element, controls] = useScroll();
     return (
         <div className="skills__container">
-            <h2>Tech Stack</h2>
-            <h3>I am proficient in</h3>
-            <div className="skills">
+            <motion.h2
+                animate={controls}
+                transition={{ dalay: 0.2, type: 'tween' }}
+                ref={element}
+                variants={imageAnimation}
+            >
+                Tech Stack
+            </motion.h2>
+            <motion.h3
+                animate={controls}
+                transition={{ dalay: 0.5, type: 'tween' }}
+                ref={element}
+                variants={fromRightAnimation}
+            >
+                I am proficient in
+            </motion.h3>
+            <motion.div
+                animate={controls}
+                transition={{ dalay: 0.5, type: 'tween' }}
+                ref={element}
+                variants={fromLeftAnimation}
+                className="skills"
+            >
                 <img src={html} alt="html" className="techlogo" />
                 <img src={sass} alt="sass" className="techlogo" />
                 <img src={javascript} alt="js" className="techlogo" />
@@ -35,23 +67,49 @@ function Skills() {
                 <img src={vim} alt="vim" className="techlogo" />
                 <img src={react} alt="react" className="techlogo" />
                 <img src={pwa} alt="pwa" className="techlogo" />
-            </div>
-            <h3>Familaiar with </h3>
-            <div className="skills">
+            </motion.div>
+            <motion.h3
+                animate={controls}
+                transition={{ dalay: 0.5, type: 'tween' }}
+                ref={element}
+                variants={fromRightAnimation}
+            >
+                Familaiar with{' '}
+            </motion.h3>
+            <motion.div
+                animate={controls}
+                transition={{ dalay: 0.5, type: 'tween' }}
+                ref={element}
+                variants={fromLeftAnimation}
+                className="skills"
+            >
                 <img src={php} alt="php" className="techlogo" />
                 <img src={mysql} alt="myslq" className="techlogo" />
                 <img src={linux} alt="linux" className="techlogo" />
                 <img src={ajax} alt="ajax" className="techlogo" />
                 <img src={bash} alt="bash" className="techlogo" />
                 <img src={webpack} alt="webpack" className="techlogo" />
-            </div>
-            <h3>Exploring</h3>
+            </motion.div>
+            <motion.h3
+                animate={controls}
+                transition={{ dalay: 0.5, type: 'tween' }}
+                ref={element}
+                variants={fromRightAnimation}
+            >
+                Exploring
+            </motion.h3>
 
-            <div className="skills">
+            <motion.div
+                animate={controls}
+                transition={{ dalay: 0.5, type: 'tween' }}
+                ref={element}
+                variants={fromLeftAnimation}
+                className="skills"
+            >
                 <img src={typescript} alt="typescript" className="techlogo" />
                 <img src={graphql} alt="graphql" className="techlogo" />
                 <img src={gatsby} alt="gatsby" className="techlogo" />
-            </div>
+            </motion.div>
         </div>
     );
 }

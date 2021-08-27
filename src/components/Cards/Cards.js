@@ -1,11 +1,32 @@
 import React from 'react';
 import CardItem from '../Cards/CardItem';
 import '../Cards/Cards.css';
+import { motion } from 'framer-motion';
+import {
+    headerAnimation,
+    imageAnimation,
+    textAnimation,
+    fromUp,
+    videoAnimation,
+    fromDown,
+    fromRightAnimation,
+    fromLeftAnimation,
+    cardAnimation,
+} from '../../Animation';
+import { useScroll } from '../useScroll';
 
 function Cards() {
+    const [element, controls] = useScroll();
     return (
         <div className="cards" id="project">
-            <h1>Check out some of my projects and blog posts!</h1>
+            <motion.h1
+                animate={controls}
+                transition={{ dalay: 0.2, type: 'spring' }}
+                variants={fromUp}
+                ref={element}
+            >
+                Check out some of my projects and blog posts!
+            </motion.h1>
 
             <div className="cards__container">
                 <div className="cards__wrapper">
