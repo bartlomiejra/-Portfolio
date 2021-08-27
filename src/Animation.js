@@ -4,8 +4,8 @@ export const headerAnimation = {
 };
 
 export const imageAnimation = {
-    hidden: { scale: 2, opacity: 0 },
-    show: { scale: 1, opacity: 1 },
+    hidden: { opacity: 0 },
+    show: { opacity: 1 },
 };
 
 export const reveal = {
@@ -46,7 +46,7 @@ export const fromUp = {
 
 export const fromDown = {
     hidden: {
-        y: -100,
+        y: -10,
         opacity: 0,
     },
     show: {
@@ -64,11 +64,11 @@ export const topContainerAnimation = {
     },
 };
 export const fromLeftAnimation = {
-    hidden: { x: -100, opacity: 0 },
+    hidden: { x: -10, opacity: 0 },
     show: { x: 0, opacity: 1 },
 };
 export const fromRightAnimation = {
-    hidden: { x: 100, opacity: 0 },
+    hidden: { x: 10, opacity: 0 },
     show: { x: 0, opacity: 1 },
 };
 
