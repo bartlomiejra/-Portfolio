@@ -6,14 +6,16 @@ import { useScroll } from '../useScroll';
 function CardItem(props) {
     const [element, controls] = useScroll();
     return (
-        <motion.div
-            variants={headerAnimation}
-            animate={controls}
-            transition={{ dalay: 0.2, type: 'twenty' }}
-            className="anim"
-            ref={element}
-        >
-            <li className="cards__item" variants={headerAnimation}>
+        <>
+            <motion.li
+                variants={headerAnimation}
+                animate={controls}
+                transition={{ dalay: 0.2, type: 'spring' }}
+                className="anim"
+                ref={element}
+                className="cards__item"
+                variants={headerAnimation}
+            >
                 <div href={props.href} className="cards__item__link">
                     <figure
                         className="cards__item__pic-wrap"
@@ -59,8 +61,8 @@ function CardItem(props) {
                         </button>
                     </div>
                 </div>
-            </li>
-        </motion.div>
+            </motion.li>
+        </>
     );
 }
 
