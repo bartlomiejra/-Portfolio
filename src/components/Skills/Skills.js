@@ -20,12 +20,13 @@ import { default as gatsby } from './svg/gatsby.svg';
 import { default as bash } from './svg/bash.svg';
 import { default as vim } from './svg/vim.svg';
 import { motion } from 'framer-motion';
+import { useScroll } from '../useScroll.js';
+
 import {
     imageAnimation,
     fromRightAnimation,
     fromLeftAnimation,
 } from '../../Animation';
-import { useScroll } from '../useScroll';
 
 function Skills() {
     const [element, controls] = useScroll();
@@ -33,7 +34,7 @@ function Skills() {
         <div className="skills__container">
             <motion.h2
                 animate={controls}
-                transition={{ dalay: 0.2, type: 'tween' }}
+                transition={{ dalay: 0.1, type: 'tween' }}
                 ref={element}
                 variants={imageAnimation}
             >

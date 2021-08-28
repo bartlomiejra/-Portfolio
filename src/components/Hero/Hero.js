@@ -14,9 +14,9 @@ function Hero() {
     return (
         <div className="hero-container" id="hero">
             <motion.div
+                transition={{ delay: 1.8, duration: 0.3 }}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 1, duration: 1 }}
                 className="globe"
             >
                 <Link activeClass="active" to="hero" spy={true} smooth={true}>
@@ -67,18 +67,16 @@ function Hero() {
                 }}
             />
             <motion.img
-                // animate={{scale: 1.05}}
-
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 0.1, duration: 1 }}
+                transition={{ delay: 0, duration: 0.3 }}
                 src="images/avatar.jpg"
                 alt="profil"
             ></motion.img>
 
             <motion.p
                 initial={{ opacity: 0 }}
-                transition={{ delay: 0.2, duration: 1 }}
+                transition={{ delay: 0.5, duration: 0.3 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
             >
@@ -99,13 +97,6 @@ function Hero() {
                                 right: 50,
                                 bottom: 50,
                             }}
-                            // transition={{}}
-
-                            // animate={{ rotate: 360 }}
-                            // transition={{ delay: 4, duration: 10 }}
-                            // initial={{ }}
-                            // exit={{ opacity: 0 }}
-
                             className="rocket"
                         >
                             🚀
@@ -114,7 +105,7 @@ function Hero() {
                 </p>
                 <motion.p
                     className="name"
-                    transition={{ delay: 0.3 }}
+                    transition={{ delay: 1, duration: 0.3 }}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
@@ -123,8 +114,8 @@ function Hero() {
                 </motion.p>
             </motion.p>
             <motion.div
+                transition={{ delay: 1.5, duration: 0.3 }}
                 initial={{ opacity: 0 }}
-                transition={{ duration: 5 }}
                 animate={{ opacity: 1 }}
                 className="hero-btns"
             >

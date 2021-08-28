@@ -1,10 +1,49 @@
+@-webkit-keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 4px;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 4px;
+  }
+}
+
 .scroll {
   position: fixed;
   right: 10px;
   bottom: 0;
-  height: 90px;
+  height: 110px;
   font-size: 3rem;
   z-index: 3;
   cursor: pointer;
+}
+
+.scroll:hover {
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+  -webkit-animation: MoveUpDown 0.8s linear infinite;
+          animation: MoveUpDown 0.8s linear infinite;
+}
+
+@media (max-width: 900px) {
+  .arrowup {
+    height: 10vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .arrowup {
+    height: 15vw;
+  }
 }
 /*# sourceMappingURL=ScrollButton.css.map */

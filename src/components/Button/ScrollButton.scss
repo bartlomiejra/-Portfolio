@@ -1,14 +1,48 @@
+
+@keyframes MoveUpDown {
+	0%,
+	100% {
+		bottom: 0;
+		//   transform:  skew(-20deg);
+	}
+
+	50% {
+		bottom: 4px;
+		//   transform: scale(2) skew(-20deg);
+	}
+}
+
 .scroll {
 
 	position: fixed;
 	// width: 600px;
 	// left: 1000px;
 	// left: 10px;
-right: 10px;
+	right: 10px;
 	bottom: 0;
 	// bottom: 100px;
-	height: 90px;
+	height: 110px;
 	font-size: 3rem;
 	z-index: 3;
 	cursor: pointer;
+}
+
+.scroll:hover {
+
+
+	outline-offset: 15px;
+	text-shadow: 1px 1px 2px #427388;
+	animation: MoveUpDown 0.8s linear infinite;
+}
+
+@media (max-width: 900px) {
+	.arrowup {
+		height: 10vw;
+	}
+}
+
+@media (max-width: 600px) {
+	.arrowup {
+		height: 15vw;
+	}
 }
