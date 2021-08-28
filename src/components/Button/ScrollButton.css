@@ -4,7 +4,7 @@
     bottom: 0;
   }
   50% {
-    bottom: 7px;
+    bottom: 9px;
   }
 }
 
@@ -14,7 +14,7 @@
     bottom: 0;
   }
   50% {
-    bottom: 7px;
+    bottom: 9px;
   }
 }
 
@@ -24,7 +24,7 @@
     bottom: 0;
   }
   50% {
-    bottom: 6px;
+    bottom: 9px;
   }
 }
 
@@ -34,7 +34,7 @@
     bottom: 0;
   }
   50% {
-    bottom: 6px;
+    bottom: 9px;
   }
 }
 
@@ -46,13 +46,16 @@
   font-size: 3rem;
   z-index: 3;
   cursor: pointer;
+  color: #8b8a8a;
   -webkit-animation: MoveUpDown 1.5s linear infinite;
           animation: MoveUpDown 1.5s linear infinite;
 }
 
 .scroll:hover {
-  -webkit-animation: MoveUpDownfast 1s linear infinite;
-          animation: MoveUpDownfast 1s linear infinite;
+  -webkit-filter: invert(0.5) hue-rotate(180deg) brightness(1);
+          filter: invert(0.5) hue-rotate(180deg) brightness(1);
+  -webkit-animation: MoveUpDownfast 0.5s linear infinite;
+          animation: MoveUpDownfast 0.5s linear infinite;
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388;
 }
