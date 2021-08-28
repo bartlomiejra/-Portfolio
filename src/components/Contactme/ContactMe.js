@@ -33,7 +33,7 @@ export default function ContactUs() {
 
     const [element, controls] = useScroll();
     return (
-        <div className="contactme-container" id="contactme">
+        <div className="contactme-container" id="contactme" ref={element}>
             <motion.h2
                 animate={controls}
                 transition={{ dalay: 0.2, type: 'tween' }}
@@ -46,7 +46,6 @@ export default function ContactUs() {
             <motion.p
                 animate={controls}
                 transition={{ dalay: 0.2, type: 'tween' }}
-                ref={element}
                 variants={cardAnimation}
                 className="solveaproblem"
             >
@@ -57,7 +56,6 @@ export default function ContactUs() {
             <motion.form
                 animate={controls}
                 transition={{ dalay: 0.2, type: 'tween' }}
-                ref={element}
                 variants={cardAnimation}
                 className="contact-form"
                 onSubmit={sendEmail}

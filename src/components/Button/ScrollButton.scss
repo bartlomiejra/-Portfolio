@@ -7,7 +7,20 @@
 	}
 
 	50% {
-		bottom: 4px;
+		bottom: 7px;
+		//   transform: scale(2) skew(-20deg);
+	}
+}
+
+@keyframes MoveUpDownfast {
+	0%,
+	100% {
+		bottom: 0;
+		//   transform:  skew(-20deg);
+	}
+
+	50% {
+		bottom: 6px;
 		//   transform: scale(2) skew(-20deg);
 	}
 }
@@ -25,14 +38,16 @@
 	font-size: 3rem;
 	z-index: 3;
 	cursor: pointer;
+	animation: MoveUpDown 1.5s linear infinite;
 }
 
 .scroll:hover {
 
 
+	animation: MoveUpDownfast 1s linear infinite;
+
 	outline-offset: 15px;
 	text-shadow: 1px 1px 2px #427388;
-	animation: MoveUpDown 0.8s linear infinite;
 }
 
 @media (max-width: 900px) {

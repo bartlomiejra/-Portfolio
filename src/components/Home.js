@@ -15,7 +15,7 @@ function Home() {
         <motion.div
             initial="hidden"
             animate="show"
-            // ref={element}
+            //  ref={element}
         >
             <Hero />
             <ScrollButton />

@@ -31,11 +31,12 @@ import {
 function Skills() {
     const [element, controls] = useScroll();
     return (
-        <div className="skills__container">
+        <div className="skills__container" ref={element}>
             <motion.h2
+                //  ref={element}
+
                 animate={controls}
                 transition={{ dalay: 0.1, type: 'tween' }}
-                ref={element}
                 variants={imageAnimation}
             >
                 Tech Stack
@@ -43,7 +44,6 @@ function Skills() {
             <motion.h3
                 animate={controls}
                 transition={{ dalay: 0.5, type: 'tween' }}
-                ref={element}
                 variants={fromRightAnimation}
             >
                 I am proficient in
@@ -51,7 +51,6 @@ function Skills() {
             <motion.div
                 animate={controls}
                 transition={{ dalay: 0.5, type: 'tween' }}
-                ref={element}
                 variants={fromLeftAnimation}
                 className="skills"
             >
@@ -75,7 +74,6 @@ function Skills() {
             <motion.div
                 animate={controls}
                 transition={{ dalay: 0.5, type: 'tween' }}
-                ref={element}
                 variants={fromLeftAnimation}
                 className="skills"
             >
@@ -89,7 +87,6 @@ function Skills() {
             <motion.h3
                 animate={controls}
                 transition={{ dalay: 0.5, type: 'tween' }}
-                ref={element}
                 variants={fromRightAnimation}
             >
                 Exploring
@@ -97,8 +94,7 @@ function Skills() {
 
             <motion.div
                 animate={controls}
-                transition={{ dalay: 0.5, type: 'tween' }}
-                ref={element}
+                transition={{ dalay: 1, type: 'tween' }}
                 variants={fromLeftAnimation}
                 className="skills"
             >
