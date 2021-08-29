@@ -32,8 +32,9 @@ function WhoIam() {
                 <p>
                     I think the value of a human being is how he helps mankind.
                     I want to create websites and an application that will be
-                    both beautiful and functional. I create my projects with
-                    pragmatism and attach great importance to accessibility.
+                    both beautiful and functional. From my point of view the
+                    most important things in development are pragmatism and
+                    accessibility
                 </p>
             </motion.section>
             {/* </ScrollAnimation> */}
