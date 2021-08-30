@@ -38,7 +38,7 @@ h1 {
 }
 
 .cards__item {
-  background: floralwhite;
+  background-color: #022221;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,7 +131,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: white;
   font-size: 1.3rem;
   line-height: 24px;
   margin: 5px;
@@ -139,9 +139,9 @@ h1 {
 
 .cards__item_tag {
   margin: 5px;
-  background-color: #242424;
+  background-color: #ff7a8a;
   border-radius: 20px;
-  color: white;
+  color: #022221;
   font-size: 1rem;
   min-width: 50px;
   max-width: 90px;
@@ -179,7 +179,7 @@ h1 {
   border-radius: 2px;
   cursor: pointer;
   background-color: transparent;
-  color: #333030;
+  color: #f5eeee;
   outline: 1px solid;
   outline-color: rgba(0, 0, 0, 0);
   outline-offset: 0;
@@ -197,12 +197,12 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 2px solid gray;
+  border: 2px solid #ece3e3;
 }
 
 .btnlink a {
   text-decoration: none;
-  color: black;
+  color: #ebe0e0;
 }
 
 .btnlink i {
@@ -211,14 +211,14 @@ h1 {
 
 .btnlink:hover,
 .btnlink:hover {
-  color: #242424;
+  color: #ddd8d8;
   /* transition: all 0.3s ease-out; */
 }
 
 .btnlink:hover {
   border: 1px solid;
-  -webkit-box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-          box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 0 0 20px rgba(245, 243, 243, 0.5), 0 0 20px rgba(255, 253, 253, 0.2);
+          box-shadow: inset 0 0 20px rgba(245, 243, 243, 0.5), 0 0 20px rgba(255, 253, 253, 0.2);
   -webkit-animation: MoveUpDown 0.8s linear infinite;
           animation: MoveUpDown 0.8s linear infinite;
   position: relative;
