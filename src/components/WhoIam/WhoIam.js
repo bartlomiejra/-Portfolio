@@ -30,10 +30,10 @@ function WhoIam() {
                 className="whoiam-text"
             >
                 <p>
-                    I think the value of a human being is how he helps mankind.
-                    I want to create websites and an application that will be
-                    both beautiful and functional. From my point of view the
-                    most important things in development are pragmatism and
+                    I think the value of a human being is how they helps
+                    mankind. I want to create websites and an applications that
+                    will be both beautiful and functional. From my point of view
+                    the most important things in development is pragmatism and
                     accessibility.
                 </p>
             </motion.section>
