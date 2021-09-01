@@ -1,4 +1,6 @@
-.cards {
+// @import '.././Styles/virables.scss'
+
+	.cards {
 	padding: 5px;
 
 	// background: rgb(255, 255, 255);
@@ -33,7 +35,9 @@ h1 {
 
 .cards__item {
 	background-color: #022221;
-	// border: 1px solid floralwhite;
+	// border: 3px solid #ff7a8a;
+	border: 3px solid floralwhite;
+
 	// background: floralwhite;
 	display: flex;
 	flex: 1 1;

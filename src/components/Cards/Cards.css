@@ -39,6 +39,7 @@ h1 {
 
 .cards__item {
   background-color: #022221;
+  border: 3px solid floralwhite;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
