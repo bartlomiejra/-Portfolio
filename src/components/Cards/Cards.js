@@ -53,10 +53,10 @@ function Cards() {
                         />
 
                         <CardItem
-                            src="images/img-5.jpg"
-                            text="A few words about digital minimalism"
+                            src="images/img-3.jpg"
+                            text="Start managing your projects, notes and every aspect of your life with the Notion and PARA method "
                             label="Blog Post"
-                            href="https://dev.to/"
+                            href="https://dev.to/mitchofminify/start-managing-your-projects-notes-and-every-aspect-of-your-life-with-the-notion-and-para-method-441p"
                             tags="blog post"
                         />
                         <CardItem
