@@ -2,6 +2,10 @@ export const headerAnimation = {
     hidden: { x: -100, opacity: 0 },
     show: { x: 1, opacity: 1 },
 };
+export const cardsAnimation = {
+   hidden: { opacity: 0 },
+    show: { opacity: 1 },
+};
 
 export const imageAnimation = {
     hidden: { opacity: 0 },

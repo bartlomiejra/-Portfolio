@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { headerAnimation } from '../../Animation';
+import { cardsAnimation } from '../../Animation';
 import { useScroll } from '../useScroll';
 
 function CardItem(props) {
@@ -12,7 +12,7 @@ function CardItem(props) {
                 transition={{ dalay: 0.2, type: 'spring' }}
                 ref={element}
                 className="cards__item"
-                variants={headerAnimation}
+                variants={cardsAnimation}
             >
                 <a href={props.href} className="cards__item__link">
                     <figure
