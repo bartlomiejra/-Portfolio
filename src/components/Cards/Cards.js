@@ -33,7 +33,7 @@ function Cards() {
                             src="images/img-6.png"
                             text="Travel Agencies page "
                             label="Project"
-                            href="https://restor.net.pl/"
+            href="https://restor.net.pl/"
                             tags="wordpress"
                         />
 
@@ -43,8 +43,12 @@ function Cards() {
               label="Project"
               href="https://dev.to/"
             /> */}
+            
                         <CardItem
-                            src="images/img-33.png"
+                                                    
+                                                    
+                                                    
+                                                    src="images/img-33.png"
                             text="This Portfolio"
                             label="Project"
                             githublink="https://github.com/bartlomiejra/-Portfolio"

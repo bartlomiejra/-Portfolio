@@ -1,6 +1,6 @@
 @import '.././Styles/virables.scss'
 
-* {
+	* {
 	z-index: 2;
 	scrollbar-width: none;
 }
@@ -17,7 +17,7 @@
 }
 
 .globe {
-	border: 2px solid $brand_Light
+	border: 2px solid $brand_Light;
 	border-radius: 50%;
 
 	//   position: absolute;
@@ -51,7 +51,7 @@
 }
 
 path {
-	stroke: $brand-light
+	stroke: $brand-light;
 }
 
 @keyframes rotation {

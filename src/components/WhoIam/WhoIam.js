@@ -16,6 +16,7 @@ function WhoIam() {
             <motion.img
                 animate={controls}
                 transition={{ dalay: 0.2, type: 'tween' }}
+                
                 ref={element}
                 variants={headerAnimation}
                 className="photo"
