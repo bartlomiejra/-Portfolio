@@ -44,7 +44,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background: black;
   /* fallback color */
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
   padding: 10px;
   margin-right: 5px;
 }
@@ -276,13 +276,13 @@
     margin-bottom: auto;
   }
   .whoiam-text > p {
-    font-size: 8.5vw;
+    font-size: 6.5vw;
     font-weight: 300;
     color: white;
     letter-spacing: -1px;
     background: black;
     /* fallback color */
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
     padding: 10px;
   }
 }
@@ -298,5 +298,15 @@
     letter-spacing: 5px;
     font-weight: 100;
   }
+}
+
+.brandcolor {
+  color: #ff7a8a;
+  background-color: transparent;
+}
+
+mark {
+  color: #ff7a8a;
+  background-color: none;
 }
 /*# sourceMappingURL=WhoIam.css.map */

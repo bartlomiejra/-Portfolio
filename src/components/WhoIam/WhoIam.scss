@@ -1,8 +1,6 @@
 @import '.././Styles/virables.scss';
 
-
-
-	.whoiam-container {
+.whoiam-container {
 	// position: relative;
 	// background-color: #242424;
 	background-color: $brand-green;
@@ -40,11 +38,11 @@
 		'Lucida Sans',
 		Arial,
 		sans-serif;
-		// letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.4);
-   padding: 10px; 
-   margin-right: 5px;
+	// letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	margin-right: 5px;
 }
 
 .whoiam-input {
@@ -83,7 +81,6 @@
 }
 
 .whoiam-link-items > h2 {
-	// color: #fff;
 	color: #ff7a8a;
 }
 
@@ -177,8 +174,9 @@
 	//   top: 0;
 	//   left: 0;
 }
+
 @media screen and (max-width: 1024px) {
-.whoiam-text > p {
+	.whoiam-text > p {
 		font-size: 5vw;
 		letter-spacing: 15px;
 		max-width: 75vw;
@@ -188,13 +186,9 @@
 		max-width: 90vw;
 		height: 100vh;
 	}
-
 }
 
-
 @media screen and (max-width: 820px) {
-	
-
 	.whoiam-links {
 		padding-top: 2rem;
 	}
@@ -267,40 +261,38 @@
 		// letter-spacing: 6px;
 		// max-width: 75vw;
 		font-weight: 300;
-		 color: white; 
-//    font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.4);
-   padding: 10px; 
-
-
-}
-
-@media (max-width: 640px) {
-	.whoiam-text {
-		// margin-top: 20px;
-		margin-left: auto;
-		margin-right: 5px;
-		margin-bottom: auto;
+		color: white;
+		//    font: bold 24px/45px Helvetica, Sans-Serif;
+		letter-spacing: -1px;
+		background: rgb(0, 0, 0); /* fallback color */
+		background: rgba(0, 0, 0, 0.4);
+		padding: 10px;
 	}
 
-	.whoiam-text > p {
-		// min-width: 100vw;
-		font-size: 7.5vw;
-		letter-spacing: 5px;
-		// max-width: 75vw;
-		font-weight: 100;
+	@media (max-width: 640px) {
+		.whoiam-text {
+			// margin-top: 20px;
+			margin-left: auto;
+			margin-right: 5px;
+			margin-bottom: auto;
+		}
+
+		.whoiam-text > p {
+			// min-width: 100vw;
+			font-size: 7.5vw;
+			letter-spacing: 5px;
+			// max-width: 75vw;
+			font-weight: 100;
+		}
 	}
 }
+
+.brandcolor {
+	color: $brand-red;
+	background-color: transparent;
 }
 
-mark.brandcolor{
+mark {
 	color: $brand-red;
 	background-color: none;
-}
-
-mark{
-color: $brand-red;
-	background-color:none;
 }
