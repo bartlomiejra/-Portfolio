@@ -25,7 +25,7 @@ function Cards() {
                             src="images/img-9.jpg"
                             text="Pomodoro App"
                             label="Project"
-                            href="https://bartlomiejra.github.io/toDoPomodoro/"
+                            href="https://todopomodoro-7384d.web.app/"
                             githublink="https://github.com/bartlomiejra/toDoPomodoro"
                             tags="javascript"
                         />
