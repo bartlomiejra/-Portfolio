@@ -35,7 +35,7 @@ function WhoIam() {
                     mankind. I want to create websites and an applications that
                     will be both beautiful and functional. From my point of view
                     the most important things in development is <mark class="brandcolor">pragmatism</mark>  and
-                    <mark class="brandcolor">accessibility</mark>.
+                    <mark class="brandcolor"> accessibility</mark>.
                 </p>
             </motion.section>
             {/* </ScrollAnimation> */}
