@@ -18,14 +18,14 @@
 
 ![Screenshot from 2022-01-24 10-13-31](https://user-images.githubusercontent.com/25589535/150758657-3ab5c0fc-2bda-4249-a600-918fbd232254.png)
 <details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-  <li>    <a href="#about-the-project">About The Project</a></li>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
+<summary>Table of Contents</summary>
+<ol>
+<li><a href="#about-the-project">About The Project</a></li>
+<li><a href="#built-with">Built With</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#contact">Contact</a></li>
+</ol>
 </details>
 
 
@@ -108,16 +108,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
