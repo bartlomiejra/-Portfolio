@@ -8,7 +8,7 @@
   <h3 align="center">My Portfolio Page</h3>
 
   <p align="center">
- This is my personal portfolio page written in ReactJs spiced up with a bit of  Frame Motion and powered by Netlify. ::fire 
+ This is my personal portfolio page written in ReactJs spiced up with a bit of  Frame Motion and powered by Netlify. :fire: 
     <br />
     <br />
     <a href="https://kind-saha-d01763.netlify.app/">View Demo</a>
@@ -25,7 +25,8 @@
   </ol>
 </details>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+![Screenshot from 2022-01-24 10-13-31](https://user-images.githubusercontent.com/25589535/150758657-3ab5c0fc-2bda-4249-a600-918fbd232254.png)
 
 
 
