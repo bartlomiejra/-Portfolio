@@ -13,6 +13,10 @@
     <br />
     <a href="https://kind-saha-d01763.netlify.app/">View Demo</a>
 </p>
+
+
+
+![Screenshot from 2022-01-24 10-13-31](https://user-images.githubusercontent.com/25589535/150758657-3ab5c0fc-2bda-4249-a600-918fbd232254.png)
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -24,10 +28,6 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
-
-![Screenshot from 2022-01-24 10-13-31](https://user-images.githubusercontent.com/25589535/150758657-3ab5c0fc-2bda-4249-a600-918fbd232254.png)
-
 
 
 ### Built With
