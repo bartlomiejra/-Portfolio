@@ -1,49 +1,9 @@
-
 .contactme-container {
 	// padding: 4rem 1rem 1rem 1rem;
 	min-height: 100vh;
-	background-color: black;
-	color: white;
+	background-color: #000;
+	color: #fff;
 	padding: 2rem 10rem 0;
-}
-
-@keyframes beat {
-	0% {
-		border-radius: 20px;
-		height: 2rem;
-		width: 2rem;
-	}
-
-	30% {
-		border-radius: 40px;
-		height: 2.3rem;
-		width: 2.3rem;
-		transition: top 0.4s;
-	}
-
-	50% {
-		border-radius: 20px;
-		height: 2rem;
-		width: 2rem;
-	}
-
-	70% {
-		border-radius: 20px;
-		height: 2rem;
-		width: 2rem;
-	}
-
-	75% {
-		border-radius: 40px;
-		height: 2.4rem;
-		width: 2.4rem;
-	}
-
-	100% {
-		border-radius: 20px;
-		height: 2rem;
-		width: 2rem;
-	}
 }
 
 h2 {
@@ -60,7 +20,7 @@ h2 {
 
 .heartparagraf {
 	margin-top: 16px;
-	color: white;
+	color: #fff;
 	font-size: 32px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	display: flex;
@@ -73,7 +33,7 @@ h2 {
 	font-size: 2rem;
 	flex-direction: column;
 	// justify-content: center;
-	color: white;
+	color: #fff;
 }
 
 input,
@@ -87,7 +47,7 @@ textarea {
 	border-radius: 4px;
 	cursor: pointer;
 	background-color: transparent;
-	color: white;
+	color: #fff;
 	border: 0 solid;
 	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
 	outline: 1px solid;

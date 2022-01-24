@@ -278,7 +278,7 @@
   .whoiam-text > p {
     font-size: 6.5vw;
     font-weight: 300;
-    color: white;
+    color: #fff;
     letter-spacing: -1px;
     background: black;
     /* fallback color */
