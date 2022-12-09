@@ -1,0 +1,241 @@
+.whoiam-container {
+  background-color: #022221;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.whoiam-text {
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-end;
+  margin-left: 25vw;
+}
+
+.whoiam-text > p {
+  letter-spacing: 17px;
+  font-size: 3rem;
+  flex: 0 1 auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.whoiam-input {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+
+.whoiam-links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.whoiam-link-wrapper {
+  display: flex;
+}
+
+.whoiam-link-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.whoiam-link-items h2 {
+  margin-bottom: 16px;
+}
+
+.whoiam-link-items > h2 {
+  color: #ff7a8a;
+}
+
+.whoiam-link-items a {
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.whoiam-link-items a:hover {
+  color: #e9e9e9;
+  transition: 0.3s ease-out;
+}
+
+.whoiam-email-form h2 {
+  margin-bottom: 2rem;
+}
+
+.whoiam-input::-moz-placeholder {
+  color: #b1b1b1;
+}
+
+.whoiam-input:-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.whoiam-input::placeholder {
+  color: #b1b1b1;
+}
+
+/* Social Icons */
+.social-icon-link {
+  color: #fff;
+  margin: 10px;
+  font-size: 4rem;
+}
+
+.social-icon-link:hover {
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+  -webkit-animation: MoveUpDown 0.8s linear infinite;
+          animation: MoveUpDown 0.8s linear infinite;
+  position: relative;
+}
+
+.social-media {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.social-media-wrap {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.website-rights {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.photo {
+  position: absolute;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .whoiam-text > p {
+    font-size: 5vw;
+    letter-spacing: 15px;
+    max-width: 75vw;
+  }
+  .photo {
+    max-width: 90vw;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 820px) {
+  .whoiam-links {
+    padding-top: 2rem;
+  }
+  .whoiam-input {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .whoiam-link-wrapper {
+    flex-direction: column;
+  }
+  .social-media-wrap {
+    flex-direction: column;
+    margin: 5px auto 0;
+  }
+  .solveaproblem {
+    display: flex;
+    justify-content: center;
+  }
+  .whoiam-text {
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .whoiam-text > p {
+    font-size: 5vw;
+    letter-spacing: 15px;
+    max-width: 75vw;
+  }
+}
+@media (max-width: 759px) {
+  .social-icon-link {
+    color: #fff;
+    font-size: 10vw;
+    margin: 5px;
+  }
+  .whoiam-text {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom: auto;
+  }
+  .whoiam-text > p {
+    font-size: 6.5vw;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+  }
+}
+@media (max-width: 759px) and (max-width: 640px) {
+  .whoiam-text {
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom: auto;
+  }
+  .whoiam-text > p {
+    font-size: 7.5vw;
+    letter-spacing: 5px;
+    font-weight: 100;
+  }
+}
+.brandcolor {
+  color: #ff7a8a;
+  background-color: transparent;
+}
+
+mark {
+  color: #ff7a8a;
+  background-color: none;
+}/*# sourceMappingURL=WhoIam.css.map */

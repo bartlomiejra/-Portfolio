@@ -1,16 +1,16 @@
-// import logo from './logo.svg';
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
-import Home from './components/Home';
+import logo from './logo.svg';
+import '../src/Styles/App.css';
+import { Router, Switch, Routes, Route, useLocation } from 'react-router-dom';
+import Home from './components/Pages/Home';
 function App() {
-    return (
-        <Router>
-            <Switch>
-                <Route path="/" exact component={Home} />
-            </Switch>
-        </Router>
-    );
+  return (
+    <>
+      {/* <Router>
+        <Route path="/" exact element={<Home />} />
+      </Router> */}
+      <Home />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,16 @@
+footer {
+  background-color: black;
+  color: #fff;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,63 @@
+@-webkit-keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 9px;
+  }
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 9px;
+  }
+}
+@-webkit-keyframes MoveUpDownfast {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 9px;
+  }
+}
+@keyframes MoveUpDownfast {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 9px;
+  }
+}
+.scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  height: 110px;
+  font-size: 3rem;
+  z-index: 3;
+  cursor: pointer;
+  color: rgb(139, 138, 138);
+  -webkit-animation: MoveUpDown 1.5s linear infinite;
+          animation: MoveUpDown 1.5s linear infinite;
+}
+
+.scroll:hover {
+  filter: invert(0.5) hue-rotate(180deg) brightness(1);
+  -webkit-animation: MoveUpDownfast 0.5s linear infinite;
+          animation: MoveUpDownfast 0.5s linear infinite;
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+@media (max-width: 900px) {
+  .arrowup {
+    height: 10vw;
+  }
+}
+@media (max-width: 600px) {
+  .arrowup {
+    height: 15vw;
+  }
+}/*# sourceMappingURL=ScrollButton.css.map */
