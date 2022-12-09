@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../../../Styles/App.css';
 import { Button } from '../../atoms/Button/Button';
 import './Hero.css';

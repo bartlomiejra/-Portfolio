@@ -6,6 +6,7 @@ import { default as instagram } from '../../../assets/svg/instagram.svg';
 import { default as goodreads } from '../../../assets/svg/goodreads.svg';
 import { default as linkedin } from '../../../assets/svg/linkedin.svg';
 import { default as twitter } from '../../../assets/svg/twitter.svg';
+import { default as github } from '../../../assets/svg/github.svg';
 
 import { motion } from 'framer-motion';
 import {
@@ -60,7 +61,12 @@ function WhoIam() {
               className="social-icon-link github"
               aria-label="Github"
             >
-              <i className="fab fa-github" />
+              <img
+                height="90px"
+                width="90px"
+                src={github}
+                alt="linkedin-logo"
+              />
             </a>
             <a
               rel="noreferrer"

@@ -32,9 +32,9 @@ function Currentplaying() {
             }
           />
           <div className="AboutSong">
-            <b>4'33 </b>
-            <b>by</b>
-            <b> John Cage</b>
+            <b> 4'33 </b>
+            <b> by </b>
+            <b> John Cage </b>
           </div>
         </fieldset>
       )}
