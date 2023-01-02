@@ -1,9 +1,8 @@
-@import '.././Styles/virables.scss';
 
 .whoiam-container {
 	// position: relative;
 	// background-color: #242424;
-	background-color: $brand-green;
+	background-color: #022221;
 	// padding: 4rem 0 2rem 0;
 	display: flex;
 	// flex-direction: column;
@@ -288,11 +287,11 @@
 }
 
 .brandcolor {
-	color: $brand-red;
+	color: #ff7a8a;
 	background-color: transparent;
 }
 
 mark {
-	color: $brand-red;
+	color: #ff7a8a;
 	background-color: none;
 }

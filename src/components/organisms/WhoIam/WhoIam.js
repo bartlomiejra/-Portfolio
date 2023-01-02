@@ -39,8 +39,8 @@ function WhoIam() {
           I think the value of a human being is how they helps mankind. I want
           to create websites and an applications that will be both beautiful and
           functional. From my point of view the most important things in
-          development is <mark class="brandcolor">pragmatism</mark> and
-          <mark class="brandcolor"> accessibility</mark>.
+          development is <mark className="brandcolor">pragmatism</mark> and
+          <mark className="brandcolor"> accessibility</mark>.
         </p>
       </motion.section>
       {/* </ScrollAnimation> */}
@@ -97,7 +97,7 @@ function WhoIam() {
                 width="90px"
                 alt="instagram-logo"
               />
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i className="fa fa-linkedin" aria-hidden="true"></i>
             </a>
 
             <a

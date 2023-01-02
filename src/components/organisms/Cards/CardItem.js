@@ -14,7 +14,7 @@ function CardItem(props) {
         className="cards__item"
         variants={cardsAnimation}
       >
-        <a href={props.href} className="cards__item__link">
+        <div className="cards__item__link">
           <figure className="cards__item__pic-wrap" data-category={props.label}>
             <img
               src={props.src}
@@ -24,12 +24,14 @@ function CardItem(props) {
               height="360"
             />
           </figure>
-          <h4 className="cards__item__text">{props.text}</h4>
+          <a href={props.href}>
+            <h4 className="cards__item__text">{props.text}</h4>
+          </a>
           <div className="cards__item_tag">{props.tags}</div>
           <div className="cards__item__info">
             {props.githublink != null ? (
               <button className="btnlink">
-                <i class="fab fa-github" aria-hidden="true"></i>
+                <i className="fab fa-github" aria-hidden="true"></i>
                 <a
                   rel="noreferrer"
                   target="_blank"
@@ -43,7 +45,7 @@ function CardItem(props) {
               ''
             )}
           </div>
-        </a>
+        </div>
       </motion.li>
     </>
   );

@@ -42,7 +42,7 @@ export default function ContactUs() {
         {' '}
         Contact Me
       </motion.h2>
-      <motion.p
+      <motion.div
         animate={controls}
         transition={{ dalay: 0.2, type: 'tween' }}
         variants={cardAnimation}
@@ -50,8 +50,9 @@ export default function ContactUs() {
       >
         <div className="heartparagraf">I’d</div>
         <img className="heart" src={heart} alt="heartsvg" />
-        <div class="heartparagraf">to solve a problem</div>
-      </motion.p>
+        <div className="heartparagraf">to solve a problem</div>
+      </motion.div>
+
       <motion.form
         animate={controls}
         transition={{ dalay: 0.2, type: 'tween' }}

@@ -67,7 +67,7 @@ path {
   top: 50px;
   max-height: 100px;
   max-width: 200px;
-  position: fixed;
+  position: absolute;
   left: 130px;
   z-index: 130;
 }
