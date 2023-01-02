@@ -1,7 +1,6 @@
 import React from 'react';
 import './ContactMe.css';
 
-// import emailjs from 'emailjs-com';
 import './ContactMe.css';
 import '../../atoms/Button/Button.css';
 import { default as heart } from './heart.svg';
