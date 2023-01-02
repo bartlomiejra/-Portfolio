@@ -109,6 +109,7 @@ h1 {
   font-size: 1.3rem;
   line-height: 24px;
   margin: 5px;
+  text-decoration: none;
 }
 
 .cards__item_tag {
@@ -161,7 +162,7 @@ h1 {
 }
 .btnlink a {
   text-decoration: none;
-  color: rgb(235, 224, 224);
+  color: #fff;
 }
 .btnlink i {
   font-size: 2rem;

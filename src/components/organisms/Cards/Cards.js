@@ -68,7 +68,6 @@ function Cards() {
               tags="blog post"
             />
           </ul>
-          <h3> </h3>
         </div>
       </div>
     </div>

@@ -24,8 +24,8 @@ function CardItem(props) {
               height="360"
             />
           </figure>
-          <a href={props.href}>
-            <h4 className="cards__item__text">{props.text}</h4>
+          <a href={props.href} className="cards__item__text">
+            {props.text}
           </a>
           <div className="cards__item_tag">{props.tags}</div>
           <div className="cards__item__info">

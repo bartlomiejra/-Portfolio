@@ -89,7 +89,13 @@ function Skills() {
           alt="git"
           className="techlogo"
         />
-        <img src={vim} alt="vim" className="techlogo" />
+        <img
+          src={vim}
+          height="120px"
+          width="120px"
+          alt="vim"
+          className="techlogo"
+        />
         <img
           src={react}
           height="120px"

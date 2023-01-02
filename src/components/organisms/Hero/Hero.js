@@ -3,7 +3,7 @@ import '../../../Styles/App.css';
 import './Hero.css';
 // import Particles from 'react-tsparticles';
 import Currentplaying from '../../atoms/Currentplaying/Currentplaying';
-// import Typist from 'react-typist';
+// import Typist from 'react-typist';node -v
 // import 'react-typist/dist/Typist.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-scroll';
