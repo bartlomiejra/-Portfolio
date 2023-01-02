@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLastFM } from 'use-last-fm';
-import { Button } from '../Button/Button';
 
 function Currentplaying() {
   const lastFM = useLastFM('bartx8', '6a14b60f0715465a2be8527105ab48e7');

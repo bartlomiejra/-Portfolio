@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 // import Sound from 'react-sound';
-import TheOtherSide from './music.mp3';
+// import TheOtherSide from './music.mp3';
 import './footer.css';
 
 // import {Frame,   Scroll } from "framer"
@@ -10,7 +10,7 @@ const PlaySound = (
   handleSongPlaying,
   handleSongFinishedPlaying,
 ) => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  // const [isPlaying, setIsPlaying] = useState(false);
   return (
     //     <button onClick={() => setIsPlaying(!isPlaying)}>
     //         {!isPlaying ? '@' : <i class="fas fa-volume-up"> </i>}
