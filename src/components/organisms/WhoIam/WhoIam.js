@@ -62,8 +62,8 @@ function WhoIam() {
               aria-label="Github"
             >
               <img
-                height="90px"
-                width="90px"
+                height="60px"
+                width="60px"
                 src={github}
                 alt="linkedin-logo"
               />
@@ -78,8 +78,8 @@ function WhoIam() {
               aria-label="Goodreads"
             >
               <img
-                height="80px"
-                width="80px"
+                height="50px"
+                width="50px"
                 src={linkedin}
                 alt="linkedin-logo"
               />
@@ -93,8 +93,8 @@ function WhoIam() {
             >
               <img
                 src={instagram}
-                height="90px"
-                width="90px"
+                height="60px"
+                width="60px"
                 alt="instagram-logo"
               />
               <i className="fa fa-linkedin" aria-hidden="true"></i>
@@ -108,8 +108,8 @@ function WhoIam() {
               aria-label="Twitter"
             >
               <img
-                height="90px"
-                width="90px"
+                height="60px"
+                width="60px"
                 src={twitter}
                 alt="twitter-logo"
               />
@@ -124,8 +124,8 @@ function WhoIam() {
               aria-label="Goodreads"
             >
               <img
-                height="100px"
-                width="100px"
+                height="70px"
+                width="70px"
                 src={goodreads}
                 alt="goodreads-logo"
               />

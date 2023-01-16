@@ -38,6 +38,7 @@ function Skills() {
         animate={controls}
         transition={{ dalay: 0.1, type: 'tween' }}
         variants={imageAnimation}
+        className="techHeader"
       >
         Tech Stack
       </motion.h2>

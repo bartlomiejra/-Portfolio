@@ -43,13 +43,18 @@
 	justify-content: center;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 850px) {
 	.techlogo {
 		max-width: 15vw;
+	}
+	.techHeader{
+		font-size: 2rem;
+		color: red;
 	}
 }
 
 @media (min-width: 640px){
+	
 }
 
 @media (min-width: 768px){
@@ -59,4 +64,5 @@
 }
 
 @media (min-width: 1200px){
+	
 }
