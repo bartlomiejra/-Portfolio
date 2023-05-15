@@ -7,7 +7,7 @@ import Skills from '../organisms/Skills/Skills';
 import ContactMe from '../organisms/Contactme/ContactMe';
 import PlaySound from '../organisms/footer/footer';
 import { motion } from 'framer-motion';
-import ScrollButton from '../atoms/ScrollButton.js/ScrollButton';
+import ScrollButton from '../atoms/ScrollButton/ScrollButton';
 function Home() {
   // const [element, controls] = useScroll;
   return (
