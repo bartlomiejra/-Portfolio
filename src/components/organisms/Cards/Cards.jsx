@@ -62,9 +62,9 @@ function Cards() {
             />
             <CardItem
               src="images/img-7.webp"
-              text="Recommendation of the best books, fiction and non-fiction"
+              text="TOP 5 Awesome Book on Summer 🌳📚🚀"
               label="Blog Post"
-              href="https://dev.to/"
+              href="https://dev.to/mitchofminify/top-5-book-on-summer-39dg"
               tags="blog post"
             />
           </ul>

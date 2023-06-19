@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '../../atoms/Button/Button';
 import './WhoIam.css';
 // import ScrollEffect from 'react-scroll-effects';
 import { default as instagram } from '../../../assets/svg/instagram.svg';

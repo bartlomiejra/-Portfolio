@@ -2,13 +2,14 @@
 // import Sound from 'react-sound';
 // import TheOtherSide from './music.mp3';
 import './footer.css';
+import React from 'react';
 
 // import {Frame,   Scroll } from "framer"
 // super(props);
 const PlaySound = (
-  handleSongLoading,
-  handleSongPlaying,
-  handleSongFinishedPlaying,
+  // handleSongLoading,
+  // handleSongPlaying,
+  // handleSongFinishedPlaying,
 ) => {
   // const [isPlaying, setIsPlaying] = useState(false);
   return (

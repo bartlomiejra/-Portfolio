@@ -1,7 +1,5 @@
 import React from 'react';
 import './ContactMe.css';
-
-import './ContactMe.css';
 import '../../atoms/Button/Button.css';
 import { default as heart } from './heart.svg';
 import { motion } from 'framer-motion';
@@ -60,22 +58,22 @@ export default function ContactUs() {
         // onSubmit={sendEmail}
       >
         <input type="hidden" name="number" />
-        <label>Name</label>
+        <label htmlFor="name">Name</label>
         <input
           type="text"
           name="name"
           aria-label="name"
           //   onchange={this.handleChange}
         />
-        <label>Email</label>
+        <label htmlFor="email">Email</label>
         <input type="email" aria-label="email" name="email" />
-        <label>Subject</label>
+        <label htmlFor="subject">Subject</label>
         <input type="text" aria-label="subject" name="subject" />
-        <label>Message</label>
+        <label htmlFor="Message">Message</label>
         <textarea aria-label="message-text" name="message" />
         <input type="submit" className="send btn btn--outline" value="Send" />
       </motion.form>
-      {/* <footer>2021 by bartlomiejra</footer> */}
+ 
     </div>
   );
 }
